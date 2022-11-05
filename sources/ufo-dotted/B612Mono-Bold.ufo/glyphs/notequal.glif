@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+  <advance width="1300"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="521" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
+      <point x="667" y="1000" type="line"/>
+      <point x="873" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="800" type="line" name="hr01"/>
+      <point x="1000" y="800" type="line"/>
+      <point x="1000" y="581" type="line" name="mv01"/>
+      <point x="200" y="581" type="line" name="mv02"/>
+    </contour>
+    <contour>
+      <point x="200" y="400" type="line"/>
+      <point x="1000" y="400" type="line"/>
+      <point x="1000" y="181" type="line"/>
+      <point x="200" y="181" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>4</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv02</string>
+      <key>delta</key>
+      <integer>7</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m521,0l306,0l667,1000l873,1000m200,800l1000,800l1000,581l200,581m200,400l1000,400l1000,181l200,181</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 181 219</string>
+          <string>hstem 581 219</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

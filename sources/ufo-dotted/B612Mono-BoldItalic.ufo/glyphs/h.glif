@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h" format="2">
+  <advance width="1300"/>
+  <unicode hex="0068"/>
+  <outline>
+    <contour>
+      <point x="409" y="0" type="line" name="hr00"/>
+      <point x="92" y="0" type="line" name="ab01"/>
+      <point x="329" y="1339" type="line"/>
+      <point x="329" y="1568" type="line"/>
+      <point x="692" y="1600" type="line" name="av01"/>
+      <point x="586" y="1000" type="line"/>
+      <point x="680" y="1100" type="line"/>
+      <point x="726" y="1110"/>
+      <point x="830" y="1117"/>
+      <point x="894" y="1117" type="qcurve" name="at01"/>
+      <point x="1071" y="1117"/>
+      <point x="1221" y="911"/>
+      <point x="1187" y="718" type="qcurve"/>
+      <point x="1060" y="0" type="line" name="sv01"/>
+      <point x="734" y="0" type="line"/>
+      <point x="858" y="698" type="line"/>
+      <point x="867" y="750"/>
+      <point x="856" y="824"/>
+      <point x="827" y="871"/>
+      <point x="784" y="892"/>
+      <point x="762" y="892" type="qcurve"/>
+      <point x="720" y="892"/>
+      <point x="658" y="877"/>
+      <point x="609" y="853"/>
+      <point x="570" y="823"/>
+      <point x="552" y="808" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>984ecf0b0f1ad61a722bcfc95e348e8155aae26dec3812b3f67de39821ed41d0e788dd71dfb11f833efcf13128ab8b6796edca176f25f5424a439c169f879629</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 20 -21</string>
+          <string>hstem 892 224</string>
+          <string>hstem 1585 -20</string>
+          <string>vstem 134 327</string>
+          <string>vstem 703 326</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

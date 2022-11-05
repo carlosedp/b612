@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeraleight" format="2">
+  <advance width="2600"/>
+  <unicode hex="2177"/>
+  <outline>
+    <contour>
+      <point x="1136" y="1121" type="line" name="av03"/>
+      <point x="464" y="-20" type="line" name="ab01"/>
+      <point x="262" y="0" type="line"/>
+      <point x="98" y="1100" type="line" name="av01"/>
+      <point x="285" y="1121" type="line" name="av02"/>
+      <point x="394" y="381" type="line"/>
+      <point x="406" y="149" type="line"/>
+      <point x="497" y="381" type="line"/>
+      <point x="917" y="1100" type="line" name="sv01"/>
+    </contour>
+    <contour>
+      <point x="1190" y="0" type="line"/>
+      <point x="1000" y="0" type="line"/>
+      <point x="1193" y="1100" type="line"/>
+      <point x="1387" y="1121" type="line"/>
+    </contour>
+    <contour>
+      <point x="1590" y="0" type="line"/>
+      <point x="1400" y="0" type="line"/>
+      <point x="1593" y="1100" type="line"/>
+      <point x="1787" y="1121" type="line"/>
+    </contour>
+    <contour>
+      <point x="1990" y="0" type="line"/>
+      <point x="1800" y="0" type="line"/>
+      <point x="1993" y="1100" type="line"/>
+      <point x="2187" y="1121" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

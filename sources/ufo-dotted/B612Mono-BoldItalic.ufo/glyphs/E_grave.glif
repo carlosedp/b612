@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="2">
+  <advance width="1300"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <contour>
+      <point x="1066" y="228" type="line"/>
+      <point x="999" y="0" type="line" name="sv01"/>
+      <point x="39" y="0" type="line" name="ab01"/>
+      <point x="97" y="231" type="line"/>
+      <point x="279" y="1263" type="line"/>
+      <point x="279" y="1500" type="line" name="at01"/>
+      <point x="1254" y="1500" type="line" name="sv02"/>
+      <point x="1214" y="1272" type="line"/>
+      <point x="617" y="1272" type="line"/>
+      <point x="607" y="1134" type="line"/>
+      <point x="569" y="916" type="line" name="av01"/>
+      <point x="1085" y="916" type="line" name="sv03"/>
+      <point x="1047" y="703" type="line"/>
+      <point x="531" y="703" type="line"/>
+      <point x="471" y="360" type="line"/>
+      <point x="439" y="228" type="line" name="mv01"/>
+    </contour>
+    <contour>
+      <point x="1001" y="1600" type="line" name="ah01"/>
+      <point x="786" y="1600" type="line" name="sh01"/>
+      <point x="558" y="1920" type="line"/>
+      <point x="891" y="1900" type="line" name="at02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at02</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>sv02</string>
+      <key>delta</key>
+      <integer>-1</integer>
+      <key>ppm1</key>
+      <integer>12</integer>
+      <key>ppm2</key>
+      <integer>12</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>-1</integer>
+      <key>ppm1</key>
+      <integer>12</integer>
+      <key>ppm2</key>
+      <integer>12</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah01</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>stem</key>
+      <string>X: 190</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>c0613eec018e0408929a582bdc5f26b0d69fb86e9ebbf2bd245555ec609572c25ad2d2414a23af381dfed221d650b1b75ae4d445b4c35a6d2a49a7266bcdff72</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1621 -21</string>
+          <string>hstem 1920 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rho" format="2">
+  <advance width="1300"/>
+  <unicode hex="03A1"/>
+  <outline>
+    <contour>
+      <point x="360" y="0" type="line" name="sv01"/>
+      <point x="28" y="0" type="line" name="ab01"/>
+      <point x="250" y="1262" type="line"/>
+      <point x="250" y="1484" type="line"/>
+      <point x="296" y="1491"/>
+      <point x="405" y="1504"/>
+      <point x="514" y="1512"/>
+      <point x="615" y="1517"/>
+      <point x="653" y="1517" type="qcurve" name="at01"/>
+      <point x="810" y="1517"/>
+      <point x="1050" y="1449"/>
+      <point x="1207" y="1328"/>
+      <point x="1277" y="1160"/>
+      <point x="1263" y="1061" type="qcurve"/>
+      <point x="1245" y="929"/>
+      <point x="1126" y="750"/>
+      <point x="925" y="639"/>
+      <point x="644" y="587"/>
+      <point x="463" y="583" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="557" y="1121" type="line"/>
+      <point x="503" y="813" type="line"/>
+      <point x="608" y="817"/>
+      <point x="761" y="848"/>
+      <point x="866" y="909"/>
+      <point x="927" y="1007"/>
+      <point x="940" y="1078" type="qcurve"/>
+      <point x="949" y="1132"/>
+      <point x="904" y="1213"/>
+      <point x="820" y="1266"/>
+      <point x="711" y="1292"/>
+      <point x="657" y="1292" type="qcurve"/>
+      <point x="643" y="1292"/>
+      <point x="623" y="1292"/>
+      <point x="605" y="1291"/>
+      <point x="584" y="1290"/>
+      <point x="571" y="1289" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b23376149b8accc42d2133ddbd0920a4f3e45e4b8047dd8db6d1aff594d30f14be36002636edbd22c2e9c7baf811734dd0bf6d1e474c4070e41492ce201b0a8e</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 20 -21</string>
+          <string>hstem 592 210</string>
+          <string>hstem 1305 206</string>
+          <string>vstem 27 352</string>
+          <string>vstem 701 334</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

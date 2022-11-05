@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="superscriptequalssign" format="2">
+  <advance width="1300"/>
+  <unicode hex="207C"/>
+  <outline>
+    <contour>
+      <point x="200" y="1070" type="line" name="hr00"/>
+      <point x="600" y="1070" type="line"/>
+      <point x="600" y="1000" type="line"/>
+      <point x="200" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="920" type="line"/>
+      <point x="600" y="920" type="line"/>
+      <point x="600" y="850" type="line"/>
+      <point x="200" y="850" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m200,1070l600,1070l600,1000l200,1000m200,920l600,920l600,850l200,850</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 850 70</string>
+          <string>hstem 1000 70</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal" format="2">
+  <advance width="1300"/>
+  <unicode hex="003D"/>
+  <outline>
+    <contour>
+      <point x="200" y="800" type="line" name="hr00"/>
+      <point x="1000" y="800" type="line" name="sv01"/>
+      <point x="1000" y="581" type="line"/>
+      <point x="200" y="581" type="line" name="av01"/>
+    </contour>
+    <contour>
+      <point x="200" y="400" type="line"/>
+      <point x="1000" y="400" type="line" name="sv02"/>
+      <point x="1000" y="181" type="line"/>
+      <point x="200" y="181" type="line" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>eq Y: 171</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>stem</key>
+      <string>eq Y: 171</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m200,800l1000,800l1000,581l200,581m200,400l1000,400l1000,181l200,181</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 181 219</string>
+          <string>hstem 581 219</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeraltwo" format="2">
+  <advance width="1300"/>
+  <unicode hex="2171"/>
+  <outline>
+    <contour>
+      <point x="490" y="0" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="300" y="1100" type="line"/>
+      <point x="490" y="1120" type="line"/>
+    </contour>
+    <contour>
+      <point x="990" y="0" type="line" name="hr01"/>
+      <point x="800" y="0" type="line"/>
+      <point x="800" y="1100" type="line"/>
+      <point x="990" y="1120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m490,0l300,0l300,1100l490,1120m990,0l800,0l800,1100l990,1120</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 1300 200</string>
+          <string>vstem 500 190</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

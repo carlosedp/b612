@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="2">
+  <advance width="1300"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="760" y="627" type="line"/>
+      <point x="1110" y="203" type="line"/>
+      <point x="968" y="102" type="line" name="ih03"/>
+      <point x="659" y="477" type="line"/>
+      <point x="660" y="477" type="line"/>
+      <point x="619" y="576" type="line" name="ih01"/>
+      <point x="584" y="477" type="line"/>
+      <point x="142" y="102" type="line" name="ih02"/>
+      <point x="35" y="203" type="line"/>
+      <point x="536" y="627" type="line"/>
+      <point x="185" y="1052" type="line"/>
+      <point x="328" y="1153" type="line" name="ih05"/>
+      <point x="637" y="777" type="line"/>
+      <point x="677" y="679" type="line" name="ih04"/>
+      <point x="713" y="777" type="line"/>
+      <point x="1154" y="1153" type="line" name="ih06"/>
+      <point x="1260" y="1052" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>ih02</string>
+      <key>point2</key>
+      <string>ih03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih04</string>
+      <key>point1</key>
+      <string>ih05</string>
+      <key>point2</key>
+      <string>ih06</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

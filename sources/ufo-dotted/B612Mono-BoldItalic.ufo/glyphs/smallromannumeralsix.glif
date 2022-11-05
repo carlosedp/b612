@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeralsix" format="2">
+  <advance width="1300"/>
+  <unicode hex="2175"/>
+  <outline>
+    <contour>
+      <point x="378" y="700" type="line"/>
+      <point x="381" y="300" type="line"/>
+      <point x="524" y="700" type="line"/>
+      <point x="725" y="1100" type="line" name="sv01"/>
+      <point x="1042" y="1120" type="line" name="at02"/>
+      <point x="468" y="-17" type="line" name="ab01"/>
+      <point x="155" y="0" type="line"/>
+      <point x="-2" y="1100" type="line" name="at03"/>
+      <point x="316" y="1120" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="1101" y="0" type="line" name="hr01"/>
+      <point x="801" y="0" type="line"/>
+      <point x="995" y="1100" type="line"/>
+      <point x="1298" y="1120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at02</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at03</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at03</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m378,700l381,300l524,700l725,1100l1042,1120l468,-17l155,0l-2,1100l316,1120m1101,0l801,0l995,1100l1298,1120</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 1300 200</string>
+          <string>vstem 650 190</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

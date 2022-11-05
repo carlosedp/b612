@@ -8,6 +8,17 @@ Main characteristics are:
 - Respect the primitives of the different letters
 - Harmonize the forms and their spacing
 
+## Customizations
+
+The **Mono** fonts were edited with FontLab to add dotted-zero and slashed-zero sources (vfc and ufo formats).
+
+After this, the fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
+
+Finally, Nerd Fonts glyphs were added to the fonts using Docker container from <https://github.com/ryanoasis/nerd-fonts/>.
+
+The modified fonts can be downloaded from [./fonts/otf](./fonts/otf) directory.
+
+
 ## The genesis of PolarSys B612
 
 In 2010, Airbus initiated a research collaboration with [ENAC](http://www.enac.fr) and [Université de Toulouse III](http://www.univ-tlse3.fr/) on a prospective study to define and validate an “Aeronautical Font”: the challenge was to improve the display of information on the cockpit screens, in particular in terms of legibility and comfort of reading, and to optimize the overall homogeneity of the cockpit.

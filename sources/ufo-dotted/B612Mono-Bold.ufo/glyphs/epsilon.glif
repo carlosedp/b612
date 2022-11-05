@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilon" format="2">
+  <advance width="1300"/>
+  <unicode hex="03B5"/>
+  <outline>
+    <contour>
+      <point x="959" y="665" type="line" name="dv01"/>
+      <point x="930" y="466" type="line" name="dv02"/>
+      <point x="661" y="466" type="line"/>
+      <point x="638" y="466"/>
+      <point x="601" y="445"/>
+      <point x="576" y="408"/>
+      <point x="562" y="357"/>
+      <point x="562" y="328" type="qcurve" name="sh01"/>
+      <point x="562" y="300"/>
+      <point x="587" y="248"/>
+      <point x="630" y="208"/>
+      <point x="690" y="184"/>
+      <point x="726" y="184" type="qcurve"/>
+      <point x="768" y="184"/>
+      <point x="855" y="210"/>
+      <point x="890" y="226" type="qcurve"/>
+      <point x="931" y="244"/>
+      <point x="971" y="268" type="qcurve" name="sh02"/>
+      <point x="1110" y="131" type="line" name="ah03"/>
+      <point x="1074" y="90"/>
+      <point x="1015" y="57" type="qcurve"/>
+      <point x="965" y="29"/>
+      <point x="804" y="-17"/>
+      <point x="688" y="-17" type="qcurve" name="ab01"/>
+      <point x="637" y="-17"/>
+      <point x="530" y="2"/>
+      <point x="429" y="40"/>
+      <point x="341" y="97"/>
+      <point x="274" y="174"/>
+      <point x="236" y="271"/>
+      <point x="236" y="329" type="qcurve" name="ah02"/>
+      <point x="236" y="401"/>
+      <point x="296" y="517"/>
+      <point x="348" y="562" type="qcurve" name="iv01"/>
+      <point x="295" y="607"/>
+      <point x="236" y="720"/>
+      <point x="236" y="792" type="qcurve" name="ah01"/>
+      <point x="236" y="851"/>
+      <point x="274" y="945"/>
+      <point x="341" y="1017"/>
+      <point x="429" y="1068"/>
+      <point x="530" y="1101"/>
+      <point x="637" y="1117"/>
+      <point x="688" y="1117" type="qcurve" name="at01"/>
+      <point x="749" y="1117"/>
+      <point x="870" y="1093"/>
+      <point x="919" y="1079" type="qcurve"/>
+      <point x="976" y="1062"/>
+      <point x="1029" y="1042" type="qcurve" name="ah04"/>
+      <point x="957" y="894" type="line" name="sh03"/>
+      <point x="921" y="900"/>
+      <point x="882" y="905" type="qcurve"/>
+      <point x="849" y="910"/>
+      <point x="767" y="917"/>
+      <point x="726" y="917" type="qcurve"/>
+      <point x="687" y="917"/>
+      <point x="626" y="891"/>
+      <point x="584" y="851"/>
+      <point x="562" y="800"/>
+      <point x="562" y="775" type="qcurve" name="sh04"/>
+      <point x="562" y="752"/>
+      <point x="578" y="712"/>
+      <point x="606" y="682"/>
+      <point x="641" y="665"/>
+      <point x="661" y="665" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doublev</string>
+      <key>point1</key>
+      <string>dv01</string>
+      <key>point2</key>
+      <string>dv02</string>
+      <key>stem</key>
+      <string>eq Y: 171</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah04</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah02</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>stem</key>
+      <string>eq X: 208</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah03</string>
+      <key>point2</key>
+      <string>sh02</string>
+      <key>stem</key>
+      <string>eq X: 176</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah04</string>
+      <key>point2</key>
+      <string>sh03</string>
+      <key>stem</key>
+      <string>eq X: dia Lite</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah01</string>
+      <key>point2</key>
+      <string>sh04</string>
+      <key>stem</key>
+      <string>eq X: 208</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a1427b391704c59150a30dbbb0bbb580ad9a04da4f0c53ce9411d5d7b0f0917a27904f706d20b7e839d318bad7a23f202010f59fdb058eabf249b1f369ace563</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -17 201</string>
+          <string>hstem 466 199</string>
+          <string>hstem 917 200</string>
+          <string>vstem 236 326</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

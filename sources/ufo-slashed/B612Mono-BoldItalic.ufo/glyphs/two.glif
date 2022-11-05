@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two" format="2">
+  <advance width="1300"/>
+  <unicode hex="0032"/>
+  <outline>
+    <contour>
+      <point x="49" y="0" type="line" name="ab01"/>
+      <point x="81" y="190" type="line"/>
+      <point x="141" y="264"/>
+      <point x="293" y="427"/>
+      <point x="450" y="584"/>
+      <point x="599" y="724"/>
+      <point x="655" y="775" type="qcurve"/>
+      <point x="720" y="833"/>
+      <point x="809" y="913"/>
+      <point x="868" y="981"/>
+      <point x="901" y="1050"/>
+      <point x="909" y="1097" type="qcurve"/>
+      <point x="916" y="1134"/>
+      <point x="904" y="1207"/>
+      <point x="868" y="1265"/>
+      <point x="809" y="1300"/>
+      <point x="768" y="1300" type="qcurve"/>
+      <point x="686" y="1300"/>
+      <point x="542" y="1190"/>
+      <point x="478" y="1096" type="qcurve"/>
+      <point x="260" y="1183" type="line"/>
+      <point x="303" y="1260"/>
+      <point x="416" y="1383"/>
+      <point x="556" y="1470"/>
+      <point x="724" y="1517"/>
+      <point x="821" y="1517" type="qcurve" name="at01"/>
+      <point x="935" y="1517"/>
+      <point x="1100" y="1442"/>
+      <point x="1201" y="1320"/>
+      <point x="1238" y="1165"/>
+      <point x="1224" y="1086" type="qcurve"/>
+      <point x="1212" y="1016"/>
+      <point x="1147" y="898"/>
+      <point x="1054" y="789"/>
+      <point x="941" y="681"/>
+      <point x="880" y="621" type="qcurve"/>
+      <point x="820" y="561"/>
+      <point x="691" y="437"/>
+      <point x="574" y="325"/>
+      <point x="478" y="231"/>
+      <point x="451" y="200" type="qcurve"/>
+      <point x="1093" y="200" type="line"/>
+      <point x="1058" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>614f5abb2b029e99e848c134e387feedf9ea0b54058f555ad9f40fa3e592249913d22d8826bb4d3d249ae5a4ea9542407965bae148d7fe0b444a0a57882b1d8f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 160</string>
+          <string>hstem 1348 169</string>
+          <string>vstem 836 195</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

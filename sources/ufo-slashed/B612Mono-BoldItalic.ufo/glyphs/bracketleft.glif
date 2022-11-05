@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="2">
+  <advance width="1300"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="459" y="1288" type="line" name="hr00"/>
+      <point x="474" y="1520" type="line" name="at01"/>
+      <point x="1174" y="1520" type="line" name="sv01"/>
+      <point x="1135" y="1302" type="line"/>
+      <point x="785" y="1302" type="line"/>
+      <point x="774" y="1154" type="line"/>
+      <point x="565" y="-31" type="line"/>
+      <point x="524" y="-179" type="line"/>
+      <point x="874" y="-179" type="line"/>
+      <point x="835" y="-398" type="line" name="sv02"/>
+      <point x="135" y="-398" type="line" name="av01"/>
+      <point x="202" y="-166" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m459,1288l474,1520l1174,1520l1135,1302l785,1302l774,1154l565,-31l524,-179l874,-179l835,-398l135,-398l202,-166</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -420 150</string>
+          <string>hstem 1370 150</string>
+          <string>vstem 122 198</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
