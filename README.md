@@ -10,6 +10,9 @@ Main characteristics are:
 
 ## Customizations
 
+![Dotted](./img/Dotted.png)
+![Slashed](./img/Slashed.png)
+
 The **Mono** fonts were edited with FontLab to add dotted-zero and slashed-zero sources (vfc and ufo formats).
 
 After this, the fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
