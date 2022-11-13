@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ethernet-cable-off" format="2">
+  <advance width="1300"/>
+  <unicode hex="F701"/>
+  <outline>
+    <contour>
+      <point x="750" y="1418" type="line"/>
+      <point x="750" y="1086" type="line"/>
+      <point x="914" y="1086" type="line"/>
+      <point x="914" y="1418" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="1336" type="line"/>
+      <point x="500" y="1152" type="line"/>
+      <point x="898" y="750" type="line"/>
+      <point x="1164" y="750" type="line"/>
+      <point x="1164" y="1336" type="line"/>
+      <point x="1000" y="1336" type="line"/>
+      <point x="1000" y="1000" type="line"/>
+      <point x="664" y="1000" type="line"/>
+      <point x="664" y="1336" type="line"/>
+    </contour>
+    <contour>
+      <point x="1500" y="-59" type="line"/>
+      <point x="105" y="1336" type="line"/>
+      <point x="0" y="1230" type="line"/>
+      <point x="443" y="785"/>
+      <point x="664" y="562"/>
+      <point x="664" y="563" type="curve"/>
+      <point x="664" y="-164" type="line"/>
+      <point x="1000" y="-164" type="line"/>
+      <point x="1000" y="230" type="line"/>
+      <point x="1394" y="-164" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>e67eb9cb2ee1d19855afc81ee651585971e09e108a4917b6be5223a79870021ea0c4c7b41f2c7431ffbdf10efd37f3bdead4c12c6eb905cba36090a7f9dbcb87</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 500 164</string>
+          <string>vstem 664 336</string>
+          <string>vstem 750 164</string>
+          <string>vstem 1000 164</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

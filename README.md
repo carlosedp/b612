@@ -10,17 +10,42 @@ Main characteristics are:
 
 ## Customizations
 
+The **Mono** fonts were edited with FontLab to add dotted-zero and slashed-zero sources (vfc and ufo formats). Also the fonts had Ligatures and Nerd Fonts glyphs allowing use on terminals and editors.
+
 ![Dotted](./img/Dotted.png)
 ![Slashed](./img/Slashed.png)
 
-The **Mono** fonts were edited with FontLab to add dotted-zero and slashed-zero sources (vfc and ufo formats).
+Some options can be configured via Opentype features:
 
-After this, the fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
+- Contextual Alternates and Ligatures can be enabled or disabled with `"'calt' on"` / `"'calt' off"` or `"editor.fontLigatures: true"`.
+- Slashed Zero can be enabled with `"'zero' on"`
+- Empty Zero can be enabled with `"'ezer' on"`
 
-Finally, Nerd Fonts glyphs were added to the fonts using Docker container from <https://github.com/ryanoasis/nerd-fonts/>.
+For example on VSCode, to have ligatures and contextual alternates enabled and keep using the dotted zero, set:
+
+```json
+"editor.fontLigatures": true
+// or
+"editor.fontLigatures": "'calt' on,'zero' off, 'ezer' off",
+// or to have context alts and slashed zero, set:
+"editor.fontLigatures": "'calt' on,'zero' on,
+```
+
+The fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
+
+Nerd Fonts glyphs were added to the fonts using Docker container from <https://github.com/ryanoasis/nerd-fonts/>.
 
 The modified fonts can be downloaded from [./fonts/otf](./fonts/otf) directory.
 
+## Font Specimen
+
+Below the font Specimen containing the standard alphabet, punctuation and symbols including the default enabled ligatures:
+
+![Specimen_1](./img/Specimen_1.png)
+
+Below additional scripts, blocks and drawing elements:
+
+![Specimen_2](./img/Specimen_2.png)
 
 ## The genesis of PolarSys B612
 

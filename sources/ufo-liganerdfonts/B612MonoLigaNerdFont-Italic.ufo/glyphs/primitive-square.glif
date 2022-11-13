@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="primitive-square" format="2">
+  <advance width="1300"/>
+  <unicode hex="EA72"/>
+  <outline>
+    <contour>
+      <point x="90" y="1127" type="line"/>
+      <point x="90" y="127" type="line"/>
+      <point x="150" y="67" type="line"/>
+      <point x="1150" y="67" type="line"/>
+      <point x="1210" y="127" type="line"/>
+      <point x="1210" y="1127" type="line"/>
+      <point x="1150" y="1187" type="line"/>
+      <point x="150" y="1187" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="1067" type="line"/>
+      <point x="1090" y="1067" type="line"/>
+      <point x="1090" y="187" type="line"/>
+      <point x="210" y="187" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m90,1127l90,127l150,67l1150,67l1210,127l1210,1127l1150,1187l150,1187m210,1067l1090,1067l1090,187l210,187</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 67 120</string>
+          <string>hstem 1067 120</string>
+          <string>vstem 90 120</string>
+          <string>vstem 1090 120</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

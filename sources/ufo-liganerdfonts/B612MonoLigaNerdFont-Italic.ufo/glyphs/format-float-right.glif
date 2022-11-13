@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="format-float-right" format="2">
+  <advance width="1300"/>
+  <unicode hex="F769"/>
+  <outline>
+    <contour>
+      <point x="1000" y="1045" type="line"/>
+      <point x="1000" y="545" type="line"/>
+      <point x="1500" y="545" type="line"/>
+      <point x="1500" y="1045" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="1377" type="line"/>
+      <point x="0" y="1209" type="line"/>
+      <point x="1500" y="1209" type="line"/>
+      <point x="1500" y="1377" type="line"/>
+    </contour>
+    <contour>
+      <point x="832" y="1045" type="line"/>
+      <point x="0" y="1045" type="line"/>
+      <point x="0" y="877" type="line"/>
+      <point x="832" y="877" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="709" type="line"/>
+      <point x="0" y="709" type="line"/>
+      <point x="0" y="545" type="line"/>
+      <point x="500" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="377" type="line"/>
+      <point x="0" y="209" type="line"/>
+      <point x="1168" y="209" type="line"/>
+      <point x="1168" y="377" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="45" type="line"/>
+      <point x="0" y="-123" type="line"/>
+      <point x="1500" y="-123" type="line"/>
+      <point x="1500" y="45" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>4d71a4604da450d9ed38d3627ea9f247e5360c4238f625ac18a57ab491cf5296bda1be83a726bb5227b56b56eed55f14c1d638bc2b445ce81e89fd2484c372fc</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -123 168</string>
+          <string>hstem 209 168</string>
+          <string>hstem 545 164</string>
+          <string>hstem 877 168</string>
+          <string>hstem 1209 168</string>
+          <string>vstem 1000 500</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

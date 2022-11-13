@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="list-filter" format="2">
+  <advance width="1300"/>
+  <unicode hex="EB83"/>
+  <outline>
+    <contour>
+      <point x="500" y="64" type="line"/>
+      <point x="1000" y="64" type="line"/>
+      <point x="1000" y="191" type="line"/>
+      <point x="500" y="191" type="line"/>
+    </contour>
+    <contour>
+      <point x="247" y="691" type="line"/>
+      <point x="247" y="564" type="line"/>
+      <point x="1247" y="564" type="line"/>
+      <point x="1247" y="691" type="line"/>
+    </contour>
+    <contour>
+      <point x="1500" y="1191" type="line"/>
+      <point x="0" y="1191" type="line"/>
+      <point x="0" y="1064" type="line"/>
+      <point x="1500" y="1064" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m500,64l1000,64l1000,191l500,191m247,691l247,564l1247,564l1247,691m1500,1191l0,1191l0,1064l1500,1064</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 64 127</string>
+          <string>hstem 564 127</string>
+          <string>hstem 1064 127</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

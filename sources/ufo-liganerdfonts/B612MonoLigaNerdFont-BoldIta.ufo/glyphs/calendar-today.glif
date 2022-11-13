@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="calendar-today" format="2">
+  <advance width="1300"/>
+  <unicode hex="F5F5"/>
+  <outline>
+    <contour>
+      <point x="332" y="711" type="line"/>
+      <point x="332" y="293" type="line"/>
+      <point x="750" y="293" type="line"/>
+      <point x="750" y="711" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="-39" type="line"/>
+      <point x="1332" y="875" type="line"/>
+      <point x="168" y="875" type="line"/>
+      <point x="168" y="-39" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="1293" type="line" smooth="yes"/>
+      <point x="1379" y="1293"/>
+      <point x="1418" y="1277"/>
+      <point x="1451" y="1244" type="curve" smooth="yes"/>
+      <point x="1484" y="1211"/>
+      <point x="1500" y="1172"/>
+      <point x="1500" y="1125" type="curve" smooth="yes"/>
+      <point x="1500" y="-39" type="line" smooth="yes"/>
+      <point x="1500" y="-86"/>
+      <point x="1484" y="-125"/>
+      <point x="1451" y="-158" type="curve" smooth="yes"/>
+      <point x="1418" y="-191"/>
+      <point x="1379" y="-207"/>
+      <point x="1332" y="-207" type="curve" smooth="yes"/>
+      <point x="168" y="-207" type="line" smooth="yes"/>
+      <point x="121" y="-207"/>
+      <point x="82" y="-191"/>
+      <point x="49" y="-158" type="curve" smooth="yes"/>
+      <point x="16" y="-125"/>
+      <point x="0" y="-86"/>
+      <point x="0" y="-39" type="curve" smooth="yes"/>
+      <point x="0" y="1125" type="line" smooth="yes"/>
+      <point x="0" y="1172"/>
+      <point x="16" y="1211"/>
+      <point x="47" y="1244" type="curve" smooth="yes"/>
+      <point x="78" y="1277"/>
+      <point x="119" y="1293"/>
+      <point x="168" y="1293" type="curve" smooth="yes"/>
+      <point x="250" y="1293" type="line"/>
+      <point x="250" y="1461" type="line"/>
+      <point x="418" y="1461" type="line"/>
+      <point x="418" y="1293" type="line"/>
+      <point x="1082" y="1293" type="line"/>
+      <point x="1082" y="1461" type="line"/>
+      <point x="1250" y="1461" type="line"/>
+      <point x="1250" y="1293" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>042663c6720661c4a4e389f0383a9f89e4e0232f2e1c4bed9ee031a753c73618f4dc5abe967c6e1132820553a755be8fe98b362469c96c848d6e616753e58b7e</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 293 418</string>
+          <string>vstem 332 418</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

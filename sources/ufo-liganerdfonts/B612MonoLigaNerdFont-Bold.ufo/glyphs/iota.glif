@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota" format="2">
+  <advance width="1300"/>
+  <unicode hex="03B9"/>
+  <outline>
+    <contour>
+      <point x="433" y="413" type="line" smooth="yes"/>
+      <point x="433" y="170"/>
+      <point x="468" y="-17"/>
+      <point x="788" y="-17" type="curve" smooth="yes"/>
+      <point x="856" y="-17"/>
+      <point x="941" y="11"/>
+      <point x="979" y="35" type="curve"/>
+      <point x="883" y="209" type="line"/>
+      <point x="862" y="200"/>
+      <point x="837" y="195"/>
+      <point x="808" y="195" type="curve" smooth="yes"/>
+      <point x="759" y="195"/>
+      <point x="760" y="300"/>
+      <point x="760" y="400" type="curve" smooth="yes"/>
+      <point x="760" y="1120" type="line"/>
+      <point x="412" y="1100" type="line"/>
+      <point x="433" y="874" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>980e0da1640a31cb2ead6d42d0812167b3d134c0deb72e7a9cdfdc5f626b5394933f5d2c8d9fd773517561bf1f7734d689a775c5f185a5bb5f2ac7e9095d2046</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -17 212</string>
+          <string>hstem 1121 -20</string>
+          <string>vstem 433 327</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ParrotOS" format="2">
+  <advance width="1300"/>
+  <unicode hex="F329"/>
+  <outline>
+    <contour>
+      <point x="12" y="1567" type="line"/>
+      <point x="0" y="1184" type="line"/>
+      <point x="148" y="1407" type="line"/>
+      <point x="352" y="1235" type="line"/>
+      <point x="535" y="836" type="line"/>
+      <point x="781" y="754" type="line"/>
+      <point x="797" y="-364" type="line" name=".hr01"/>
+      <point x="922" y="208" type="line"/>
+      <point x="1070" y="-106" type="line"/>
+      <point x="1078" y="571" type="line" name=".hr02"/>
+      <point x="1379" y="379" type="line"/>
+      <point x="711" y="1430" type="line"/>
+      <point x="230" y="1618" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m12,1567l0,1184l148,1407l352,1235l535,836l781,754l797,-364l922,208l1070,-106l1078,571l1379,379l711,1430l230,1618</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 781 297</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 797 125</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 781 297</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

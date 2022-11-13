@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twitch" format="2">
+  <advance width="1300"/>
+  <unicode hex="FA42"/>
+  <outline>
+    <contour>
+      <point x="164" y="1459" type="line"/>
+      <point x="0" y="1127" type="line"/>
+      <point x="0" y="45" type="line"/>
+      <point x="414" y="45" type="line"/>
+      <point x="414" y="-205" type="line"/>
+      <point x="664" y="-205" type="line"/>
+      <point x="914" y="45" type="line"/>
+      <point x="1250" y="45" type="line"/>
+      <point x="1664" y="459" type="line"/>
+      <point x="1664" y="1459" type="line"/>
+    </contour>
+    <contour>
+      <point x="1500" y="545" type="line"/>
+      <point x="1250" y="295" type="line"/>
+      <point x="832" y="295" type="line"/>
+      <point x="582" y="45" type="line"/>
+      <point x="582" y="295" type="line"/>
+      <point x="332" y="295" type="line"/>
+      <point x="332" y="1295" type="line"/>
+      <point x="1500" y="1295" type="line"/>
+    </contour>
+    <contour>
+      <point x="1082" y="1045" type="line"/>
+      <point x="1082" y="627" type="line"/>
+      <point x="1250" y="627" type="line"/>
+      <point x="1250" y="1045" type="line"/>
+    </contour>
+    <contour>
+      <point x="832" y="1045" type="line"/>
+      <point x="664" y="1045" type="line"/>
+      <point x="664" y="627" type="line"/>
+      <point x="832" y="627" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>72b62480aee09c23900f7de639a8e91c88891a2fc32f7fd0e994179f10461b0a54c72bc02caeaecba101f44f00be313d515fa1a06c255f259863a0d32fddecc9</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 45 250</string>
+          <string>hstem 627 418</string>
+          <string>hstem 1295 164</string>
+          <string>vstem 0 332</string>
+          <string>vstem 664 168</string>
+          <string>vstem 1082 168</string>
+          <string>vstem 1500 164</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

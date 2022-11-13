@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="device-mobile" format="2">
+  <advance width="1300"/>
+  <unicode hex="EADB"/>
+  <outline>
+    <contour>
+      <point x="146.5" y="1500" type="line"/>
+      <point x="86.5" y="1440" type="line"/>
+      <point x="86.5" y="-186" type="line"/>
+      <point x="146.5" y="-246" type="line"/>
+      <point x="1146.5" y="-246" type="line"/>
+      <point x="1213.5" y="-186" type="line"/>
+      <point x="1213.5" y="1440" type="line"/>
+      <point x="1146.5" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="213.5" y="-120" type="line"/>
+      <point x="213.5" y="1380" type="line"/>
+      <point x="1086.5" y="1380" type="line"/>
+      <point x="1086.5" y="-120" type="line"/>
+    </contour>
+    <contour>
+      <point x="526.5" y="127" type="line"/>
+      <point x="526.5" y="0" type="line"/>
+      <point x="773.5" y="0" type="line"/>
+      <point x="773.5" y="127" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2d0440a718f9857bc6aa155f296af08fb431a63ae39a7ee3a3189c93543f33d3ba8580d27aa2aaf95022bbe73d47a5a141d4d259feedeb0758223ed5822b057d</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -246 126</string>
+          <string>hstem 0 127</string>
+          <string>hstem 1380 120</string>
+          <string>vstem 86 127</string>
+          <string>vstem 526 247</string>
+          <string>vstem 1086 127</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

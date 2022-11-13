@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HEAVYCIRCLE" format="2">
+  <advance width="1300"/>
+  <unicode hex="2B58"/>
+  <outline>
+    <contour>
+      <point x="895" y="1523" type="curve" smooth="yes"/>
+      <point x="1388" y="1523"/>
+      <point x="1791" y="1121"/>
+      <point x="1791" y="628" type="curve" smooth="yes"/>
+      <point x="1791" y="135"/>
+      <point x="1388" y="-269"/>
+      <point x="895" y="-269" type="curve" smooth="yes"/>
+      <point x="402" y="-269"/>
+      <point x="0" y="135"/>
+      <point x="0" y="628" type="curve" smooth="yes"/>
+      <point x="0" y="1121"/>
+      <point x="402" y="1523"/>
+    </contour>
+    <contour>
+      <point x="895" y="1217" type="curve" smooth="yes"/>
+      <point x="568" y="1217"/>
+      <point x="307" y="955"/>
+      <point x="307" y="628" type="curve" smooth="yes"/>
+      <point x="307" y="301"/>
+      <point x="568" y="38"/>
+      <point x="895" y="38" type="curve" smooth="yes"/>
+      <point x="1222" y="38"/>
+      <point x="1485" y="301"/>
+      <point x="1485" y="628" type="curve" smooth="yes"/>
+      <point x="1485" y="955"/>
+      <point x="1222" y="1217"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>32870b0f6151f65548bbc95db4523b67f3a02a50cc0a47805d0b822662a8d697fdf9bdd6ee731f656a4bc74203e328cc4055ed1744b07f3f31dcfd373cf807f0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -269 306</string>
+          <string>hstem 1217 306</string>
+          <string>vstem 0 307</string>
+          <string>vstem 1485 306</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="view-parallel" format="2">
+  <advance width="1300"/>
+  <unicode hex="FC26"/>
+  <outline>
+    <contour>
+      <point x="0" y="-123" type="line"/>
+      <point x="336" y="-123" type="line"/>
+      <point x="336" y="1377" type="line"/>
+      <point x="0" y="1377" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="-123" type="line"/>
+      <point x="836" y="-123" type="line"/>
+      <point x="836" y="1377" type="line"/>
+      <point x="500" y="1377" type="line"/>
+    </contour>
+    <contour>
+      <point x="1000" y="-123" type="line"/>
+      <point x="1336" y="-123" type="line"/>
+      <point x="1336" y="1377" type="line"/>
+      <point x="1000" y="1377" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m0,-123l336,-123l336,1377l0,1377m500,-123l836,-123l836,1377l500,1377m1000,-123l1336,-123l1336,1377l1000,1377</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 0 336</string>
+          <string>vstem 500 336</string>
+          <string>vstem 1000 336</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

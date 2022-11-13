@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chart-histogram" format="2">
+  <advance width="1300"/>
+  <unicode hex="F628"/>
+  <outline>
+    <contour>
+      <point x="0" y="1377" type="line"/>
+      <point x="0" y="-123" type="line"/>
+      <point x="1500" y="-123" type="line"/>
+      <point x="1500" y="377" type="line"/>
+      <point x="1168" y="377" type="line"/>
+      <point x="1168" y="709" type="line"/>
+      <point x="832" y="709" type="line"/>
+      <point x="832" y="1045" type="line"/>
+      <point x="500" y="1045" type="line"/>
+      <point x="500" y="545" type="line"/>
+      <point x="168" y="545" type="line"/>
+      <point x="168" y="1377" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m0,1377l0,-123l1500,-123l1500,377l1168,377l1168,709l832,709l832,1045l500,1045l500,545l168,545l168,1377</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -123 500</string>
+          <string>vstem 0 168</string>
+          <string>vstem 500 332</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="skip-backward" format="2">
+  <advance width="1300"/>
+  <unicode hex="F9AA"/>
+  <outline>
+    <contour>
+      <point x="1336" y="1209" type="line"/>
+      <point x="750" y="627" type="line"/>
+      <point x="1336" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="168" y="1209" type="line"/>
+      <point x="0" y="1209" type="line"/>
+      <point x="0" y="45" type="line"/>
+      <point x="168" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="750" y="1209" type="line"/>
+      <point x="168" y="627" type="line"/>
+      <point x="750" y="45" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m1336,1209l750,627l1336,45m168,1209l0,1209l0,45l168,45m750,1209l168,627l750,45</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 0 168</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

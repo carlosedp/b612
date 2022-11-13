@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="checkerboard" format="2">
+  <advance width="1300"/>
+  <unicode hex="F639"/>
+  <outline>
+    <contour>
+      <point x="0" y="1377" type="line" name=".hr03"/>
+      <point x="0" y="-123" type="line" name=".hr01"/>
+      <point x="1500" y="-123" type="line"/>
+      <point x="1500" y="1377" type="line" name=".hr02"/>
+    </contour>
+    <contour>
+      <point x="168" y="1209" type="line" name=".hr04"/>
+      <point x="750" y="1209" type="line" name=".hr05"/>
+      <point x="750" y="627" type="line" name=".hr05"/>
+      <point x="1332" y="627" type="line"/>
+      <point x="1332" y="45" type="line" name=".hr06"/>
+      <point x="750" y="45" type="line"/>
+      <point x="750" y="627" type="line" name=".hr07"/>
+      <point x="168" y="627" type="line" name=".hr08"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m0,1377l0,-123l1500,-123l1500,1377m168,1209l750,1209l750,627l1332,627l1332,45l750,45l750,627l168,627</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -123 750</string>
+          <string>vstem 0 168</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+          <string>hstem 1209 168</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 627 750</string>
+          <string>vstem 750 750</string>
+          <string>hstem -123 168</string>
+          <string>vstem 0 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 627 750</string>
+          <string>vstem 0 750</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1209 168</string>
+          <string>vstem 0 168</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr04</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1209 168</string>
+          <string>vstem 0 750</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr05</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 627 750</string>
+          <string>vstem 0 750</string>
+          <string>vstem 1332 168</string>
+          <string>hstem -123 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr05</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 627 750</string>
+          <string>vstem 0 168</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr08</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1209 168</string>
+          <string>vstem 0 168</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr04</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

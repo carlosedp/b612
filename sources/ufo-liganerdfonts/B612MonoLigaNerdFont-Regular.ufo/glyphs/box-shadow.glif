@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="box-shadow" format="2">
+  <advance width="1300"/>
+  <unicode hex="FB36"/>
+  <outline>
+    <contour>
+      <point x="0" y="1377" type="line"/>
+      <point x="0" y="127" type="line"/>
+      <point x="1250" y="127" type="line"/>
+      <point x="1250" y="1377" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="45" type="line"/>
+      <point x="1332" y="-123" type="line"/>
+      <point x="1500" y="-123" type="line"/>
+      <point x="1500" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="295" type="line" name=".hr01"/>
+      <point x="1332" y="127" type="line"/>
+      <point x="1500" y="127" type="line"/>
+      <point x="1500" y="295" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="545" type="line"/>
+      <point x="1332" y="377" type="line"/>
+      <point x="1500" y="377" type="line"/>
+      <point x="1500" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="795" type="line"/>
+      <point x="1332" y="627" type="line"/>
+      <point x="1500" y="627" type="line"/>
+      <point x="1500" y="795" type="line"/>
+    </contour>
+    <contour>
+      <point x="1332" y="1045" type="line"/>
+      <point x="1332" y="877" type="line"/>
+      <point x="1500" y="877" type="line"/>
+      <point x="1500" y="1045" type="line"/>
+    </contour>
+    <contour>
+      <point x="1082" y="45" type="line"/>
+      <point x="1082" y="-123" type="line"/>
+      <point x="1250" y="-123" type="line"/>
+      <point x="1250" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="832" y="45" type="line"/>
+      <point x="832" y="-123" type="line"/>
+      <point x="1000" y="-123" type="line"/>
+      <point x="1000" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="582" y="45" type="line"/>
+      <point x="582" y="-123" type="line"/>
+      <point x="750" y="-123" type="line"/>
+      <point x="750" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="332" y="45" type="line"/>
+      <point x="332" y="-123" type="line"/>
+      <point x="500" y="-123" type="line"/>
+      <point x="500" y="45" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f19cf91e5026199539b05f2fd7d9f5834e89bf3070652f6ac2476d271930a471c358bce7a87b23b0b93fcc3de9ed8ed94475c5f776f7ff226ca68b4f2faf68b5</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 127 1250</string>
+          <string>vstem 0 1250</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1332 168</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 127 168</string>
+          <string>vstem 1332 168</string>
+          <string>hstem 377 168</string>
+          <string>hstem 627 168</string>
+          <string>hstem 877 168</string>
+          <string>hstem -123 168</string>
+          <string>vstem 1082 168</string>
+          <string>vstem 832 168</string>
+          <string>vstem 582 168</string>
+          <string>vstem 332 168</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

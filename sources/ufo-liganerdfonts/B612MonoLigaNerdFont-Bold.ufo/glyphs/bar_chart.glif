@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_chart" format="2">
+  <advance width="1300"/>
+  <unicode hex="F080"/>
+  <outline>
+    <contour>
+      <point x="714" y="627" type="line"/>
+      <point x="429" y="627" type="line"/>
+      <point x="429" y="56" type="line"/>
+      <point x="714" y="56" type="line"/>
+    </contour>
+    <contour>
+      <point x="1143" y="1199" type="line"/>
+      <point x="857" y="1199" type="line"/>
+      <point x="857" y="56" type="line"/>
+      <point x="1143" y="56" type="line"/>
+    </contour>
+    <contour>
+      <point x="2286" y="-87" type="line"/>
+      <point x="143" y="-87" type="line"/>
+      <point x="143" y="1484" type="line"/>
+      <point x="0" y="1484" type="line"/>
+      <point x="0" y="-230" type="line"/>
+      <point x="2286" y="-230" type="line"/>
+    </contour>
+    <contour>
+      <point x="1571" y="913" type="line"/>
+      <point x="1286" y="913" type="line"/>
+      <point x="1286" y="56" type="line"/>
+      <point x="1571" y="56" type="line"/>
+    </contour>
+    <contour>
+      <point x="2000" y="1342" type="line"/>
+      <point x="1714" y="1342" type="line"/>
+      <point x="1714" y="56" type="line"/>
+      <point x="2000" y="56" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>1ff49219bd1ff871db00fb411d6383c7f535c4dc791399ac89b61de8cf83b4045fabc52bfa1db544b940cac3a5ed1018b8d64cef39dd0aae73488c2cccb14477</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -230 143</string>
+          <string>vstem 0 143</string>
+          <string>vstem 429 285</string>
+          <string>vstem 857 286</string>
+          <string>vstem 1286 285</string>
+          <string>vstem 1714 286</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

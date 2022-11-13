@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i_seti_plan" format="2">
+  <advance width="1300"/>
+  <unicode hex="E681"/>
+  <outline>
+    <contour>
+      <point x="0" y="1339" type="line"/>
+      <point x="0" y="949" type="line"/>
+      <point x="1052" y="949" type="line"/>
+      <point x="1052" y="1339" type="line"/>
+    </contour>
+    <contour>
+      <point x="433" y="822" type="line"/>
+      <point x="433" y="432" type="line"/>
+      <point x="1485" y="432" type="line"/>
+      <point x="1485" y="822" type="line"/>
+    </contour>
+    <contour>
+      <point x="1059" y="305" type="line"/>
+      <point x="1059" y="-85" type="line"/>
+      <point x="1485" y="-85" type="line"/>
+      <point x="1485" y="305" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m0,1339l0,949l1052,949l1052,1339m433,822l433,432l1485,432l1485,822m1059,305l1059,-85l1485,-85l1485,305</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -85 390</string>
+          <string>hstem 432 390</string>
+          <string>hstem 949 390</string>
+          <string>vstem 1059 426</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
