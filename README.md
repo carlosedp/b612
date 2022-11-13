@@ -23,12 +23,12 @@ Some options can be configured via Opentype features:
 
 For example on VSCode, to have ligatures and contextual alternates enabled and keep using the dotted zero, set:
 
-```json
+```javascript
 "editor.fontLigatures": true
 // or
 "editor.fontLigatures": "'calt' on,'zero' off, 'ezer' off",
 // or to have context alts and slashed zero, set:
-"editor.fontLigatures": "'calt' on,'zero' on,
+"editor.fontLigatures": "'calt' on,'zero' on",
 ```
 
 The fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
