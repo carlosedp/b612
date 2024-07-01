@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="indianrupee" format="2">
+  <advance width="1300"/>
+  <unicode hex="20B9"/>
+  <outline>
+    <contour>
+      <point x="180" y="1500" type="line" name="hr00"/>
+      <point x="1135" y="1500" type="line"/>
+      <point x="1022" y="1292" type="line"/>
+      <point x="934" y="1292" type="line"/>
+      <point x="790" y="1340" type="line"/>
+      <point x="881" y="1251" type="line"/>
+      <point x="891" y="1231"/>
+      <point x="895" y="1183"/>
+      <point x="895" y="1169" type="qcurve"/>
+      <point x="1136" y="1169" type="line"/>
+      <point x="1022" y="959" type="line"/>
+      <point x="930" y="959" type="line"/>
+      <point x="817" y="990" type="line"/>
+      <point x="877" y="925" type="line"/>
+      <point x="855" y="866"/>
+      <point x="774" y="765" name="mv01"/>
+      <point x="669" y="687" name="mv02"/>
+      <point x="546" y="636"/>
+      <point x="482" y="627" type="qcurve"/>
+      <point x="630" y="583" type="line"/>
+      <point x="1067" y="0" type="line"/>
+      <point x="699" y="0" type="line"/>
+      <point x="272" y="573" type="line"/>
+      <point x="264" y="583"/>
+      <point x="252" y="583" type="qcurve"/>
+      <point x="160" y="583" type="line"/>
+      <point x="160" y="802" type="line"/>
+      <point x="330" y="802" type="line"/>
+      <point x="377" y="802"/>
+      <point x="453" y="827"/>
+      <point x="513" y="869"/>
+      <point x="556" y="926"/>
+      <point x="570" y="959" type="qcurve"/>
+      <point x="122" y="959" type="line"/>
+      <point x="180" y="1169" type="line"/>
+      <point x="576" y="1169" type="line"/>
+      <point x="570" y="1185"/>
+      <point x="550" y="1228"/>
+      <point x="513" y="1266"/>
+      <point x="454" y="1292"/>
+      <point x="410" y="1292" type="qcurve"/>
+      <point x="122" y="1292" type="line" name="mh01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>4</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv02</string>
+      <key>delta</key>
+      <integer>-2</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mh01</string>
+      <key>delta</key>
+      <integer>1</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh01</string>
+      <key>delta</key>
+      <integer>3</integer>
+      <key>ppm1</key>
+      <integer>23</integer>
+      <key>ppm2</key>
+      <integer>23</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>8927366b2a37566d3a1aae9d853c1646a8e3f544b4aea687b30f182b95a7eaea7e46af0cb3a8655792a28ffa3512ddca761e963211940dacae0311c66926d83c</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 959 210</string>
+          <string>hstem 1292 208</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

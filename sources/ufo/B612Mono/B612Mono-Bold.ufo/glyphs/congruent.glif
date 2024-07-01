@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="congruent" format="2">
+  <advance width="1300"/>
+  <unicode hex="2245"/>
+  <outline>
+    <contour>
+      <point x="200" y="300" type="line"/>
+      <point x="1000" y="300" type="line" name="av02"/>
+      <point x="1000" y="116" type="line" name="sv01"/>
+      <point x="200" y="116" type="line" name="sv02"/>
+    </contour>
+    <contour>
+      <point x="200" y="600" type="line"/>
+      <point x="1000" y="600" type="line" name="av01"/>
+      <point x="1000" y="416" type="line" name="sv03"/>
+      <point x="200" y="416" type="line" name="sv04"/>
+    </contour>
+    <contour>
+      <point x="1000" y="800" type="line" name="hr01"/>
+      <point x="947" y="740"/>
+      <point x="832" y="680"/>
+      <point x="760" y="680" type="qcurve"/>
+      <point x="713" y="680"/>
+      <point x="624" y="727"/>
+      <point x="540" y="784"/>
+      <point x="459" y="831"/>
+      <point x="420" y="831" type="qcurve"/>
+      <point x="390" y="831"/>
+      <point x="331" y="813"/>
+      <point x="274" y="784"/>
+      <point x="222" y="746"/>
+      <point x="200" y="726" type="qcurve"/>
+      <point x="200" y="902" type="line"/>
+      <point x="226" y="931"/>
+      <point x="281" y="982"/>
+      <point x="340" y="1019"/>
+      <point x="404" y="1041"/>
+      <point x="440" y="1041" type="qcurve"/>
+      <point x="471" y="1041"/>
+      <point x="529" y="1018"/>
+      <point x="583" y="985"/>
+      <point x="637" y="945"/>
+      <point x="691" y="912"/>
+      <point x="748" y="889"/>
+      <point x="780" y="889" type="qcurve"/>
+      <point x="840" y="889"/>
+      <point x="955" y="933"/>
+      <point x="1000" y="972" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>eq Y: 144</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>stem</key>
+      <string>eq Y: 144</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv03</string>
+      <key>point2</key>
+      <string>sv04</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>64f9fe0fab3dc9a354583301b0abd542b01da4dc5e971c964d314e38b619d17c86184ff0c016a6cef16879c776af0f64c86395aa2fc554db577a4946d1095953</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 680 209</string>
+          <string>hstem 831 58</string>
+          <string>hstem 831 210</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+  <advance width="1300"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="485.5" y="150" type="qcurve" name="ah01"/>
+      <point x="485.5" y="184"/>
+      <point x="511.5" y="244"/>
+      <point x="556.5" y="289"/>
+      <point x="615.5" y="315"/>
+      <point x="649.5" y="315" type="qcurve" name="av01"/>
+      <point x="683.5" y="315"/>
+      <point x="743.5" y="289"/>
+      <point x="788.5" y="244"/>
+      <point x="814.5" y="184"/>
+      <point x="814.5" y="150" type="qcurve" name="ah02"/>
+      <point x="814.5" y="116"/>
+      <point x="788.5" y="55"/>
+      <point x="744.5" y="10"/>
+      <point x="685.5" y="-17"/>
+      <point x="651.5" y="-17" type="qcurve" name="ab01"/>
+      <point x="617.5" y="-17"/>
+      <point x="556.5" y="10"/>
+      <point x="511.5" y="55"/>
+      <point x="485.5" y="116"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>ed0e9d81c5c0f1d33e47b25bac87f44046f92a4d632c0047b156a31d92eaa49106aa59c9ceef8f939fe8f309388ae967e2afb8100e425bf3c47fa9084f260b06</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -17 244</string>
+          <string>vstem 78 242</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicaland" format="2">
+  <advance width="1300"/>
+  <unicode hex="2227"/>
+  <outline>
+    <contour>
+      <point x="780" y="1320" type="line" name="hr00"/>
+      <point x="1222" y="0" type="line"/>
+      <point x="1058" y="0" type="line"/>
+      <point x="722" y="980" type="line"/>
+      <point x="657" y="1220" type="line"/>
+      <point x="592" y="980" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="93" y="0" type="line"/>
+      <point x="522" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" color="1,0,0,1" x="0" y="1302"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m780,1320l1222,0l1058,0l722,980l657,1220l592,980l255,0l93,0l522,1300</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 1320 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

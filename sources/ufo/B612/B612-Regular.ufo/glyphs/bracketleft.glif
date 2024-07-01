@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="2">
+  <advance width="900"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="122" y="1320" type="line" name="dh01"/>
+      <point x="100" y="1520" type="line" name="at01"/>
+      <point x="672" y="1520" type="line"/>
+      <point x="672" y="1370" type="line" name="sv01"/>
+      <point x="300" y="1370" type="line"/>
+      <point x="320" y="1170" type="line" name="dh02"/>
+      <point x="320" y="-70" type="line"/>
+      <point x="300" y="-270" type="line"/>
+      <point x="672" y="-270" type="line" name="dv02"/>
+      <point x="672" y="-420" type="line" name="dv01"/>
+      <point x="100" y="-420" type="line"/>
+      <point x="122" y="-220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doublev</string>
+      <key>point1</key>
+      <string>dv01</string>
+      <key>point2</key>
+      <string>dv02</string>
+      <key>stem</key>
+      <string>Y: 153</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>Y: 153</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doubleh</string>
+      <key>point1</key>
+      <string>dh01</string>
+      <key>point2</key>
+      <string>dh02</string>
+      <key>stem</key>
+      <string>X: 208</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w900m122,1320l100,1520l672,1520l672,1370l300,1370l320,1170l320,-70l300,-270l672,-270l672,-420l100,-420l122,-220</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -420 150</string>
+          <string>hstem 1370 150</string>
+          <string>vstem 122 198</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical" format="2">
+  <advance width="1600"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="1500" y="1300" type="line" name="dv02"/>
+      <point x="1480" y="1150" type="line" name="dv01"/>
+      <point x="1210" y="1150" type="line"/>
+      <point x="1010" y="1170" type="line"/>
+      <point x="676" y="-20" type="line" name="ab01"/>
+      <point x="418" y="0" type="line"/>
+      <point x="265" y="550" type="line"/>
+      <point x="188" y="750" type="line"/>
+      <point x="373" y="770" type="line"/>
+      <point x="504" y="300" type="line"/>
+      <point x="550" y="60" type="line"/>
+      <point x="596" y="300" type="line"/>
+      <point x="878" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doublev</string>
+      <key>point1</key>
+      <string>dv01</string>
+      <key>point2</key>
+      <string>dv02</string>
+      <key>stem</key>
+      <string>Y: 153</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1600m1500,1300l1480,1150l1210,1150l1010,1170l676,-20l418,0l265,550l188,750l373,770l504,300l550,60l596,300l878,1300</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1 -21</string>
+          <string>hstem 1150 150</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minus" format="2">
+  <advance width="1300"/>
+  <unicode hex="2212"/>
+  <outline>
+    <contour>
+      <point x="219" y="700" type="line" name="av01"/>
+      <point x="1119" y="700" type="line" name="sv01"/>
+      <point x="1080" y="476" type="line"/>
+      <point x="180" y="476" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m219,700l1119,700l1080,476l180,476</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 88 -21</string>
+          <string>hstem 440 155</string>
+          <string>hstem 968 -20</string>
+          <string>vstem 472 155</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

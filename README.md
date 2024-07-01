@@ -47,6 +47,38 @@ Below additional scripts, blocks and drawing elements:
 
 ![Specimen_2](./img/Specimen_2.png)
 
+## Building or Updating the fonts
+
+To build a new version of the font, edit it with FontLab, then run the "Export Font As" option, selecting "UFO Package" format and below the format, select all fonts to be exported. Than export again in the same menu but selecting "OpenType PS (.otf)" format to generate the output fonts in the `fonts` directory.
+
+To add ligatures to the fonts, use Ligaturizer tool. First clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/ToxicFrog/Ligaturizer
+cd Ligaturizer
+git submodule update --init --recursive
+# copy the fonts to be processed to the fonts directory
+mkdir fonts/B612
+cp /path/to/B612/fonts/otf/*.otf fonts/B612
+```
+
+Edit the `Ligaturizer.py` file to disable some ligatures if needed (like the `<=` and `>=` which looks wrong on some code). Then edit `build.py` to comment fonts which do not need edit and  Also ligaturizer requires `fontforge` which can be installed with `brew install fontforge`.
+
+Then run the following command:
+
+```bash
+make
+```
+
+To add the Nerd Fonts glyphs, go to the `fonts` directory, create an `in` directory and copy the fonts to be processed there. Then run the following command (requires Docker or Podman):
+
+```bash
+docker run -v $(pwd):/in -v $(pwd)/out:/out nerdfonts/patcher -c
+```
+
+The patched fonts will be available in the `out` directory. Move them to the `fonts` directory and delete the `in` and `out` directories.
+
+
 ## The genesis of PolarSys B612
 
 In 2010, Airbus initiated a research collaboration with [ENAC](http://www.enac.fr) and [Université de Toulouse III](http://www.univ-tlse3.fr/) on a prospective study to define and validate an “Aeronautical Font”: the challenge was to improve the display of information on the cockpit screens, in particular in terms of legibility and comfort of reading, and to optimize the overall homogeneity of the cockpit.

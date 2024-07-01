@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresis" format="2">
+  <advance width="1300"/>
+  <unicode hex="00D6"/>
+  <outline>
+    <contour>
+      <point x="518" y="-17" type="qcurve" name="ab01"/>
+      <point x="420" y="-17"/>
+      <point x="265" y="38"/>
+      <point x="150" y="139"/>
+      <point x="74" y="279"/>
+      <point x="36" y="450"/>
+      <point x="36" y="645"/>
+      <point x="55" y="750" type="qcurve"/>
+      <point x="73" y="855"/>
+      <point x="141" y="1050"/>
+      <point x="237" y="1221"/>
+      <point x="361" y="1361"/>
+      <point x="511" y="1462"/>
+      <point x="688" y="1517"/>
+      <point x="789" y="1517" type="qcurve" name="at01"/>
+      <point x="936" y="1517"/>
+      <point x="1138" y="1395"/>
+      <point x="1252" y="1187"/>
+      <point x="1280" y="907"/>
+      <point x="1252" y="750" type="qcurve"/>
+      <point x="1233" y="645"/>
+      <point x="1166" y="450"/>
+      <point x="1070" y="279"/>
+      <point x="946" y="139"/>
+      <point x="795" y="38"/>
+      <point x="618" y="-17"/>
+    </contour>
+    <contour>
+      <point x="896" y="721" type="qcurve"/>
+      <point x="907" y="783"/>
+      <point x="923" y="913"/>
+      <point x="926" y="1036"/>
+      <point x="910" y="1145"/>
+      <point x="868" y="1226"/>
+      <point x="796" y="1274"/>
+      <point x="740" y="1274" type="qcurve"/>
+      <point x="688" y="1274"/>
+      <point x="604" y="1231"/>
+      <point x="537" y="1158"/>
+      <point x="486" y="1061"/>
+      <point x="447" y="952"/>
+      <point x="419" y="837"/>
+      <point x="410" y="783" type="qcurve"/>
+      <point x="399" y="720"/>
+      <point x="383" y="589"/>
+      <point x="381" y="465"/>
+      <point x="397" y="356"/>
+      <point x="439" y="274"/>
+      <point x="511" y="226"/>
+      <point x="566" y="226" type="qcurve"/>
+      <point x="643" y="226"/>
+      <point x="755" y="320"/>
+      <point x="833" y="466"/>
+      <point x="882" y="640"/>
+    </contour>
+    <contour>
+      <point x="538" y="1866" type="line" name="av01"/>
+      <point x="814" y="1866" type="line" name="mh01"/>
+      <point x="767" y="1600" type="line" name="sv01"/>
+      <point x="491" y="1600" type="line"/>
+    </contour>
+    <contour>
+      <point x="938" y="1866" type="line" name="av02"/>
+      <point x="1214" y="1866" type="line" name="mh02"/>
+      <point x="1167" y="1600" type="line" name="sv02"/>
+      <point x="891" y="1600" type="line" name="mh03"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>mh01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>mh01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>Y: 171</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>mh02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>mh02</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>stem</key>
+      <string>Y: 171</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh01</string>
+      <key>delta</key>
+      <integer>-2</integer>
+      <key>ppm1</key>
+      <integer>15</integer>
+      <key>ppm2</key>
+      <integer>15</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh02</string>
+      <key>delta</key>
+      <integer>1</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh03</string>
+      <key>delta</key>
+      <integer>8</integer>
+      <key>ppm1</key>
+      <integer>13</integer>
+      <key>ppm2</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh03</string>
+      <key>delta</key>
+      <integer>6</integer>
+      <key>ppm1</key>
+      <integer>12</integer>
+      <key>ppm2</key>
+      <integer>12</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>079ea365e139f5f3376294936e356fb0eb9b403fc0af9b8743432a6af30a734731d2feb898bb07cb482959b863d387df0cfc93f1626135a260f8a1c92e22408a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -16 237</string>
+          <string>hstem 1279 237</string>
+          <string>vstem 87 349</string>
+          <string>vstem 1173 349</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

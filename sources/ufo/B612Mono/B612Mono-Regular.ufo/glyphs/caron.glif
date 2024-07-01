@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="2">
+  <advance width="1300"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="695" y="1220" type="line" name="hr00"/>
+      <point x="495" y="1240" type="line"/>
+      <point x="319" y="1520" type="line" name="at01"/>
+      <point x="469" y="1520" type="line"/>
+      <point x="580" y="1387" type="line"/>
+      <point x="600" y="1310" type="line"/>
+      <point x="620" y="1388" type="line"/>
+      <point x="730" y="1520" type="line" name="at02"/>
+      <point x="880" y="1520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at02</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m695,1220l495,1240l319,1520l469,1520l580,1387l600,1310l620,1388l730,1520l880,1520</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1220 20</string>
+          <string>hstem 1499 21</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
