@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEABB" format="2">
+  <advance width="1300"/>
+  <unicode hex="EABB"/>
+  <outline>
+    <contour>
+      <point x="0" y="-60" type="line"/>
+      <point x="1127" y="-60" type="line"/>
+      <point x="1127" y="1060" type="line"/>
+      <point x="0" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="60" type="line"/>
+      <point x="127" y="940" type="line"/>
+      <point x="1000" y="940" type="line"/>
+      <point x="1000" y="60" type="line"/>
+    </contour>
+    <contour>
+      <point x="380" y="1060" type="line"/>
+      <point x="380" y="1187" type="line"/>
+      <point x="1254" y="1187" type="line"/>
+      <point x="1254" y="314" type="line"/>
+      <point x="1127" y="314" type="line"/>
+      <point x="1127" y="187" type="line"/>
+      <point x="1380" y="187" type="line"/>
+      <point x="1380" y="1314" type="line"/>
+      <point x="254" y="1314" type="line"/>
+      <point x="254" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>30eea4a8018f3a4cc268bae43578bbafbe40f537a670610cbefc4ca8dc8ac3badaf8def22e9d5b76eb676a1447424ab604e34b17e353c9c8d8d68daffebde2ff</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -60 120</string>
+          <string>hstem 187 127</string>
+          <string>hstem 940 120</string>
+          <string>hstem 1187 127</string>
+          <string>vstem 0 127</string>
+          <string>vstem 254 126</string>
+          <string>vstem 1000 127</string>
+          <string>vstem 1254 126</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tau" format="2">
+  <advance width="1300"/>
+  <unicode hex="03C4"/>
+  <outline>
+    <contour>
+      <point x="1077" y="900" type="line"/>
+      <point x="1104" y="1100" type="line"/>
+      <point x="176" y="1100" type="line"/>
+      <point x="149" y="900" type="line"/>
+      <point x="484" y="900" type="line"/>
+      <point x="484" y="320" type="line" smooth="yes"/>
+      <point x="484" y="173"/>
+      <point x="507" y="67"/>
+      <point x="600" y="0" type="curve"/>
+      <point x="915" y="0" type="line"/>
+      <point x="817" y="132"/>
+      <point x="793" y="193"/>
+      <point x="793" y="284" type="curve" smooth="yes"/>
+      <point x="793" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m1077,900l1104,1100l176,1100l149,900l484,900l484,320c484,173 507,67 600,0l915,0c817,132 793,193 793,284l793,900</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 900 200</string>
+          <string>vstem 484 309</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+  <advance width="1300"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="300" y="1282" type="line"/>
+      <point x="1000" y="1282" type="line"/>
+      <point x="1000" y="1500" type="line"/>
+      <point x="300" y="1500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m300,1282l1000,1282l1000,1500l300,1500</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1282 218</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

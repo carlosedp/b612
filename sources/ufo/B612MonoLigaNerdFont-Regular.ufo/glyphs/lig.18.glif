@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lig.18" format="2">
+  <advance width="1300"/>
+  <outline>
+    <contour>
+      <point x="-685" y="-237" type="line"/>
+      <point x="307" y="-237" type="line"/>
+      <point x="307" y="-90" type="line"/>
+      <point x="-513" y="-90" type="line"/>
+      <point x="-513" y="1524" type="line"/>
+      <point x="307" y="1524" type="line"/>
+      <point x="307" y="1673" type="line"/>
+      <point x="-685" y="1673" type="line"/>
+    </contour>
+    <contour>
+      <point x="633" y="1673" type="line"/>
+      <point x="470" y="1673" type="line"/>
+      <point x="470" y="-237" type="line"/>
+      <point x="633" y="-237" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m-685,-237l307,-237l307,-90l-513,-90l-513,1524l307,1524l307,1673l-685,1673m633,1673l470,1673l470,-237l633,-237</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -237 147</string>
+          <string>hstem 1524 149</string>
+          <string>vstem -684 172</string>
+          <string>vstem 470 162</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

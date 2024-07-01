@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB20" format="2">
+  <advance width="1300"/>
+  <unicode hex="FB20"/>
+  <outline>
+    <contour>
+      <point x="750" y="545" type="line"/>
+      <point x="750" y="1377" type="line"/>
+      <point x="586" y="1377" type="line"/>
+      <point x="586" y="545" type="line"/>
+      <point x="336" y="545" type="line"/>
+      <point x="668" y="209" type="line"/>
+      <point x="1000" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-123" type="line"/>
+      <point x="1336" y="-123" type="line"/>
+      <point x="1336" y="45" type="line"/>
+      <point x="0" y="45" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m750,545l750,1377l586,1377l586,545l336,545l668,209l1000,545m0,-123l1336,-123l1336,45l0,45</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -123 168</string>
+          <string>vstem 586 164</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

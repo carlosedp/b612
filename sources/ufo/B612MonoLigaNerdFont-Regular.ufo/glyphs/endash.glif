@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="2">
+  <advance width="1300"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="300" y="446" type="line"/>
+      <point x="1000" y="446" type="line"/>
+      <point x="1000" y="600" type="line"/>
+      <point x="300" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m300,446l1000,446l1000,600l300,600</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 446 154</string>
+          <string>vstem 300 700</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

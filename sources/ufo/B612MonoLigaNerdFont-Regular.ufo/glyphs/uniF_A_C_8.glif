@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFAC8" format="2">
+  <advance width="1300"/>
+  <unicode hex="FAC8"/>
+  <outline>
+    <contour>
+      <point x="1500" y="209" type="line"/>
+      <point x="1500" y="377" type="line"/>
+      <point x="0" y="377" type="line"/>
+      <point x="0" y="209" type="line"/>
+    </contour>
+    <contour>
+      <point x="1500" y="-41" type="line"/>
+      <point x="1500" y="45" type="line"/>
+      <point x="0" y="45" type="line"/>
+      <point x="0" y="-41" type="line"/>
+    </contour>
+    <contour>
+      <point x="1500" y="545" type="line"/>
+      <point x="1500" y="795" type="line"/>
+      <point x="0" y="795" type="line"/>
+      <point x="0" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="959" type="line"/>
+      <point x="1500" y="959" type="line"/>
+      <point x="1500" y="1295" type="line"/>
+      <point x="0" y="1295" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m1500,209l1500,377l0,377l0,209m1500,-41l1500,45l0,45l0,-41m1500,545l1500,795l0,795l0,545m0,959l1500,959l1500,1295l0,1295</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -41 86</string>
+          <string>hstem 209 168</string>
+          <string>hstem 545 250</string>
+          <string>hstem 959 336</string>
+          <string>vstem 0 1500</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
