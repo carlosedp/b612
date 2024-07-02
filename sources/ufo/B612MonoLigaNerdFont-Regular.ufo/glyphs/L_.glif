@@ -16,25 +16,25 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w1300m393,340l393,1520l178,1500l208,1290l208,200l188,0l1093,0l1113,160l383,160</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 0 160</string>
-          <string>hstem 1520 -20</string>
-          <string>vstem 90 210</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 1520 -20</string>
+              <string>vstem 90 210</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>w1300m393,340l393,1520l178,1500l208,1290l208,200l188,0l1093,0l1113,160l383,160</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

@@ -103,27 +103,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>1d130c781518c34b44802da389536ca8b15b9d907e10f524bd2044a9e8924c42d021d08b087c949c9e50bd4930c722891ff950468fc91bca3c5e7811d7bbae99</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -373 217</string>
-          <string>hstem 1230 397</string>
-          <string>vstem 0 218</string>
-          <string>vstem 999 216</string>
-          <string>vstem 1109 399</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -373 217</string>
+              <string>hstem 1230 397</string>
+              <string>vstem 0 218</string>
+              <string>vstem 999 216</string>
+              <string>vstem 1109 399</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>1d130c781518c34b44802da389536ca8b15b9d907e10f524bd2044a9e8924c42d021d08b087c949c9e50bd4930c722891ff950468fc91bca3c5e7811d7bbae99</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

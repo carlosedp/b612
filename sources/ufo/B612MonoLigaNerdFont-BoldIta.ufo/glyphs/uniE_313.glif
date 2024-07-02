@@ -14,7 +14,7 @@
       <point x="2036" y="36" type="line" smooth="yes"/>
       <point x="2061" y="36"/>
       <point x="2082" y="44"/>
-      <point x="2099" y="61" type="curve" smooth="yes"/>
+      <point x="2099" y="61" type="curve"/>
       <point x="2116" y="77"/>
       <point x="2125" y="97"/>
       <point x="2125" y="121" type="curve" smooth="yes"/>
@@ -27,7 +27,7 @@
       <point x="92" y="210" type="line" smooth="yes"/>
       <point x="66" y="210"/>
       <point x="44" y="202"/>
-      <point x="27" y="185" type="curve" smooth="yes"/>
+      <point x="27" y="185" type="curve"/>
       <point x="9" y="168"/>
       <point x="0" y="146"/>
     </contour>
@@ -35,27 +35,27 @@
       <point x="272" y="448" type="curve" smooth="yes"/>
       <point x="272" y="424"/>
       <point x="281" y="403"/>
-      <point x="298" y="386" type="curve" smooth="yes"/>
+      <point x="298" y="386" type="curve"/>
       <point x="315" y="368"/>
       <point x="336" y="359"/>
       <point x="361" y="359" type="curve" smooth="yes"/>
       <point x="2307" y="359" type="line" smooth="yes"/>
       <point x="2331" y="359"/>
       <point x="2351" y="368"/>
-      <point x="2368" y="385" type="curve" smooth="yes"/>
+      <point x="2368" y="385" type="curve"/>
       <point x="2384" y="402"/>
       <point x="2392" y="423"/>
       <point x="2392" y="448" type="curve" smooth="yes"/>
       <point x="2392" y="472"/>
       <point x="2384" y="492"/>
-      <point x="2368" y="509" type="curve" smooth="yes"/>
+      <point x="2368" y="509" type="curve"/>
       <point x="2351" y="526"/>
       <point x="2331" y="534"/>
       <point x="2307" y="534" type="curve" smooth="yes"/>
       <point x="361" y="534" type="line" smooth="yes"/>
       <point x="336" y="534"/>
       <point x="315" y="526"/>
-      <point x="300" y="511" type="curve" smooth="yes"/>
+      <point x="300" y="511" type="curve"/>
       <point x="281" y="494"/>
       <point x="272" y="473"/>
     </contour>
@@ -155,41 +155,41 @@
       <point x="2579" y="-198" type="curve" smooth="yes"/>
       <point x="2579" y="-174"/>
       <point x="2570" y="-154"/>
-      <point x="2553" y="-138" type="curve" smooth="yes"/>
+      <point x="2553" y="-138" type="curve"/>
       <point x="2536" y="-121"/>
       <point x="2515" y="-113"/>
       <point x="2490" y="-113" type="curve" smooth="yes"/>
       <point x="544" y="-113" type="line"/>
       <point x="517" y="-114"/>
       <point x="496" y="-122"/>
-      <point x="481" y="-137" type="curve" smooth="yes"/>
+      <point x="481" y="-137" type="curve"/>
       <point x="463" y="-153"/>
       <point x="454" y="-173"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>37bd184db72574c07cf334b67cac8326fdc9fc6bc5403eea50dafe0faf6b4efca143bf9e6789d1eb7f919e9bc67007cd4a60b4c2bd6a31f07c952945ba30006a</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -288 175</string>
-          <string>hstem 36 174</string>
-          <string>hstem 359 175</string>
-          <string>hstem 895 174</string>
-          <string>hstem 1363 179</string>
-          <string>vstem 286 1</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -288 175</string>
+              <string>hstem 36 174</string>
+              <string>hstem 359 175</string>
+              <string>hstem 895 174</string>
+              <string>hstem 1363 179</string>
+              <string>vstem 286 1</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>37bd184db72574c07cf334b67cac8326fdc9fc6bc5403eea50dafe0faf6b4efca143bf9e6789d1eb7f919e9bc67007cd4a60b4c2bd6a31f07c952945ba30006a</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

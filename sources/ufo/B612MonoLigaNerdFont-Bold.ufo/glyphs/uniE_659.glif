@@ -94,55 +94,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>113c6040b72b3446dd50ff84cb10541d692bba85e3e8646471a64dc2ead411d77319db20d6af156bde7545ea64f57f275f0d9a3474a096e588942604912e4394</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 70 41</string>
-          <string>hstem 224 24</string>
-          <string>hstem 385 64</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 70 41</string>
+              <string>hstem 224 24</string>
+              <string>hstem 385 64</string>
+              <string>hstem 441 49</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>113c6040b72b3446dd50ff84cb10541d692bba85e3e8646471a64dc2ead411d77319db20d6af156bde7545ea64f57f275f0d9a3474a096e588942604912e4394</string>
       </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 70 41</string>
-          <string>hstem 224 24</string>
-          <string>hstem 441 49</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 70 41</string>
-          <string>hstem 224 24</string>
-          <string>hstem 385 64</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 70 41</string>
-          <string>hstem 224 24</string>
-          <string>hstem 441 49</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
-      </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

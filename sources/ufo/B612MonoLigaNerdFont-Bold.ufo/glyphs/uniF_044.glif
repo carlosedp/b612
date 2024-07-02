@@ -65,7 +65,7 @@
       <point x="1401" y="1360" type="curve" smooth="yes"/>
       <point x="1399" y="1371"/>
       <point x="1391" y="1382"/>
-      <point x="1381" y="1386" type="curve" smooth="yes"/>
+      <point x="1381" y="1386" type="curve"/>
       <point x="1340" y="1405"/>
       <point x="1295" y="1413"/>
       <point x="1250" y="1413" type="curve" smooth="yes"/>
@@ -103,30 +103,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>915cc0377796a6aefe07642021ee5f7b4765d9ad16df78b7cb50c8565af56c722088423d4d8137de3049c4311c4dc53feb5512ed94b584d4281ece5e1d1a0210</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -158 143</string>
-          <string>hstem 127 107</string>
-          <string>hstem 127 214</string>
-          <string>hstem 1270 142</string>
-          <string>vstem 0 143</string>
-          <string>vstem 714 107</string>
-          <string>vstem 714 215</string>
-          <string>vstem 1429 142</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -158 143</string>
+              <string>hstem 127 107</string>
+              <string>hstem 127 214</string>
+              <string>hstem 1270 142</string>
+              <string>vstem 0 143</string>
+              <string>vstem 714 107</string>
+              <string>vstem 714 215</string>
+              <string>vstem 1429 142</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>915cc0377796a6aefe07642021ee5f7b4765d9ad16df78b7cb50c8565af56c722088423d4d8137de3049c4311c4dc53feb5512ed94b584d4281ece5e1d1a0210</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

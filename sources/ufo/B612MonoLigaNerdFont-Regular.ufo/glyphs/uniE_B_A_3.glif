@@ -41,7 +41,7 @@
       <point x="520" y="1564" type="line" smooth="yes"/>
       <point x="502" y="1564"/>
       <point x="485" y="1560"/>
-      <point x="470" y="1554" type="curve" smooth="yes"/>
+      <point x="470" y="1554" type="curve"/>
       <point x="454" y="1547"/>
       <point x="441" y="1538"/>
       <point x="430" y="1527" type="curve" smooth="yes"/>
@@ -73,31 +73,31 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>f6495d33afb552ac9fd8ee7407d9715c24658d7be0ea947e94e000fef41e5ad246a4c9f242a9f3dbf7589743a5933f353b375b88159eacbd0e5d640141c0a525</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -309 127</string>
-          <string>hstem -56 120</string>
-          <string>hstem 190 127</string>
-          <string>hstem 443 120</string>
-          <string>hstem 1190 127</string>
-          <string>hstem 1443 120</string>
-          <string>vstem 393 127</string>
-          <string>vstem 646 500</string>
-          <string>vstem 1266 127</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -309 127</string>
+              <string>hstem -56 120</string>
+              <string>hstem 190 127</string>
+              <string>hstem 443 120</string>
+              <string>hstem 1190 127</string>
+              <string>hstem 1443 120</string>
+              <string>vstem 393 127</string>
+              <string>vstem 646 500</string>
+              <string>vstem 1266 127</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>f6495d33afb552ac9fd8ee7407d9715c24658d7be0ea947e94e000fef41e5ad246a4c9f242a9f3dbf7589743a5933f353b375b88159eacbd0e5d640141c0a525</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

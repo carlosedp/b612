@@ -39,7 +39,7 @@
       <point x="193" y="1267" type="curve"/>
       <point x="180" y="1262"/>
       <point x="166" y="1262"/>
-      <point x="153" y="1267" type="curve" smooth="yes"/>
+      <point x="153" y="1267" type="curve"/>
       <point x="140" y="1271"/>
       <point x="128" y="1279"/>
       <point x="117" y="1290" type="curve" smooth="yes"/>
@@ -51,13 +51,13 @@
       <point x="113" y="1370" type="curve" smooth="yes"/>
       <point x="122" y="1381"/>
       <point x="133" y="1390"/>
-      <point x="146" y="1397" type="curve" smooth="yes"/>
+      <point x="146" y="1397" type="curve"/>
       <point x="159" y="1403"/>
       <point x="173" y="1405"/>
-      <point x="186" y="1400" type="curve" smooth="yes"/>
+      <point x="186" y="1400" type="curve"/>
       <point x="199" y="1396"/>
       <point x="212" y="1387"/>
-      <point x="223" y="1374" type="curve" smooth="yes"/>
+      <point x="223" y="1374" type="curve"/>
       <point x="234" y="1360"/>
       <point x="240" y="1347"/>
       <point x="240" y="1334" type="curve"/>
@@ -102,19 +102,19 @@
       <point x="760" y="960" type="curve"/>
       <point x="773" y="933"/>
       <point x="779" y="905"/>
-      <point x="777" y="877" type="curve" smooth="yes"/>
+      <point x="777" y="877" type="curve"/>
       <point x="774" y="848"/>
       <point x="765" y="823"/>
       <point x="750" y="800" type="curve"/>
       <point x="734" y="778"/>
       <point x="713" y="759"/>
-      <point x="686" y="743" type="curve" smooth="yes"/>
+      <point x="686" y="743" type="curve"/>
       <point x="659" y="728"/>
       <point x="632" y="721"/>
-      <point x="603" y="723" type="curve" smooth="yes"/>
+      <point x="603" y="723" type="curve"/>
       <point x="574" y="726"/>
       <point x="548" y="733"/>
-      <point x="523" y="747" type="curve" smooth="yes"/>
+      <point x="523" y="747" type="curve"/>
       <point x="498" y="760"/>
       <point x="478" y="778"/>
       <point x="463" y="800" type="curve" smooth="yes"/>
@@ -143,16 +143,16 @@
       <point x="653" y="940" type="curve"/>
       <point x="648" y="949"/>
       <point x="641" y="956"/>
-      <point x="630" y="960" type="curve" smooth="yes"/>
+      <point x="630" y="960" type="curve"/>
       <point x="619" y="965"/>
       <point x="606" y="966"/>
-      <point x="593" y="963" type="curve" smooth="yes"/>
+      <point x="593" y="963" type="curve"/>
       <point x="580" y="961"/>
       <point x="568" y="954"/>
       <point x="557" y="943" type="curve" smooth="yes"/>
       <point x="546" y="932"/>
       <point x="539" y="920"/>
-      <point x="537" y="907" type="curve" smooth="yes"/>
+      <point x="537" y="907" type="curve"/>
       <point x="534" y="893"/>
       <point x="535" y="881"/>
       <point x="540" y="870" type="curve" smooth="yes"/>
@@ -173,26 +173,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>99b038d9ea832d9a4a5206c812064133f6cbf7b562bf54c900edf4b48a5ed3937a71ec37d01f2313fc3d8d467b8980c5a3e07d8ae1c1f642f77f56f8db730c20</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 67 120</string>
-          <string>vstem 0 100</string>
-          <string>vstem 240 100</string>
-          <string>vstem 1313 120</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 67 120</string>
+              <string>vstem 0 100</string>
+              <string>vstem 240 100</string>
+              <string>vstem 1313 120</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>99b038d9ea832d9a4a5206c812064133f6cbf7b562bf54c900edf4b48a5ed3937a71ec37d01f2313fc3d8d467b8980c5a3e07d8ae1c1f642f77f56f8db730c20</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

@@ -40,14 +40,14 @@
       <point x="176" y="1258" type="line"/>
       <point x="163" y="1253"/>
       <point x="155" y="1245"/>
-      <point x="152" y="1235" type="curve" smooth="yes"/>
+      <point x="152" y="1235" type="curve"/>
       <point x="141" y="1207" type="line"/>
       <point x="123" y="1189"/>
       <point x="112" y="1167"/>
       <point x="109" y="1141" type="curve"/>
       <point x="104" y="1130"/>
       <point x="99" y="1113"/>
-      <point x="96" y="1088" type="curve" smooth="yes"/>
+      <point x="96" y="1088" type="curve"/>
       <point x="92" y="1063"/>
       <point x="94" y="1048"/>
       <point x="102" y="1043" type="curve"/>
@@ -63,7 +63,7 @@
       <point x="23" y="817" type="line"/>
       <point x="15" y="809"/>
       <point x="10" y="799"/>
-      <point x="8" y="788" type="curve" smooth="yes"/>
+      <point x="8" y="788" type="curve"/>
       <point x="5" y="776"/>
       <point x="3" y="766"/>
       <point x="0" y="758" type="curve"/>
@@ -177,7 +177,7 @@
       <point x="492" y="735" type="line"/>
       <point x="489" y="740"/>
       <point x="492" y="747"/>
-      <point x="500" y="754" type="curve" smooth="yes"/>
+      <point x="500" y="754" type="curve"/>
       <point x="516" y="766" type="line"/>
       <point x="559" y="809" type="line"/>
       <point x="582" y="835"/>
@@ -196,7 +196,7 @@
       <point x="715" y="949" type="curve"/>
       <point x="720" y="952"/>
       <point x="726" y="964"/>
-      <point x="733" y="985" type="curve" smooth="yes"/>
+      <point x="733" y="985" type="curve"/>
       <point x="739" y="1006"/>
       <point x="730" y="1016"/>
       <point x="707" y="1016" type="curve"/>
@@ -217,7 +217,7 @@
       <point x="625" y="1199" type="curve"/>
       <point x="614" y="1214"/>
       <point x="595" y="1219"/>
-      <point x="566" y="1213" type="curve" smooth="yes"/>
+      <point x="566" y="1213" type="curve"/>
       <point x="537" y="1206"/>
       <point x="518" y="1197"/>
       <point x="508" y="1184" type="curve"/>
@@ -239,23 +239,23 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>be0bef9ef085f4342bbf8eb59abf7ac946cf3ae085e07b73fcf33b36596c55d036021b281bb32624947cd2fa16ee0fc7e46b353df0d74266e541a6cb1aeb0328</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 490 126</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 490 126</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>be0bef9ef085f4342bbf8eb59abf7ac946cf3ae085e07b73fcf33b36596c55d036021b281bb32624947cd2fa16ee0fc7e46b353df0d74266e541a6cb1aeb0328</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

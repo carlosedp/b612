@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>com.fontlab.v2.tth</key>
   <dict>
+    <key>stems</key>
+    <dict>
+      <key>160</key>
+      <dict>
+        <key>horizontal</key>
+        <true/>
+        <key>width</key>
+        <integer>160</integer>
+      </dict>
+      <key>190</key>
+      <dict>
+        <key>horizontal</key>
+        <false/>
+        <key>width</key>
+        <integer>190</integer>
+      </dict>
+      <key>210</key>
+      <dict>
+        <key>horizontal</key>
+        <false/>
+        <key>width</key>
+        <integer>210</integer>
+      </dict>
+    </dict>
     <key>zones</key>
     <dict>
+      <key>T1</key>
+      <dict>
+        <key>position</key>
+        <integer>1117</integer>
+        <key>top</key>
+        <true/>
+        <key>width</key>
+        <integer>3</integer>
+      </dict>
       <key>base</key>
       <dict>
         <key>position</key>
         <integer>0</integer>
-        <key>width</key>
-        <integer>17</integer>
         <key>top</key>
         <false/>
+        <key>width</key>
+        <integer>17</integer>
       </dict>
       <key>dsc</key>
       <dict>
         <key>position</key>
         <integer>-500</integer>
-        <key>width</key>
-        <integer>17</integer>
         <key>top</key>
         <false/>
-      </dict>
-      <key>T1</key>
-      <dict>
-        <key>position</key>
-        <integer>1117</integer>
         <key>width</key>
-        <integer>3</integer>
-        <key>top</key>
-        <true/>
+        <integer>17</integer>
       </dict>
       <key>fig</key>
       <dict>
         <key>position</key>
         <integer>1520</integer>
-        <key>width</key>
-        <integer>0</integer>
         <key>top</key>
         <true/>
-      </dict>
-    </dict>
-    <key>stems</key>
-    <dict>
-      <key>160</key>
-      <dict>
         <key>width</key>
-        <integer>160</integer>
-        <key>horizontal</key>
-        <true/>
-      </dict>
-      <key>190</key>
-      <dict>
-        <key>width</key>
-        <integer>190</integer>
-        <key>horizontal</key>
-        <false/>
-      </dict>
-      <key>210</key>
-      <dict>
-        <key>width</key>
-        <integer>210</integer>
-        <key>horizontal</key>
-        <false/>
+        <integer>0</integer>
       </dict>
     </dict>
   </dict>

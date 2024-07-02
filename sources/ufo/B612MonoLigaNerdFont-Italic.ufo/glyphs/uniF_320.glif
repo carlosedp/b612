@@ -100,7 +100,7 @@
       <point x="606" y="443" type="line" smooth="yes"/>
       <point x="653" y="430"/>
       <point x="683" y="422"/>
-      <point x="696" y="420" type="curve" smooth="yes"/>
+      <point x="696" y="420" type="curve"/>
       <point x="709" y="417"/>
       <point x="732" y="413"/>
       <point x="766" y="406" type="curve" smooth="yes"/>
@@ -126,7 +126,7 @@
       <point x="1379" y="880" type="curve" smooth="yes"/>
       <point x="1361" y="880"/>
       <point x="1346" y="874"/>
-      <point x="1334" y="863" type="curve" smooth="yes"/>
+      <point x="1334" y="863" type="curve"/>
       <point x="1322" y="851"/>
       <point x="1316" y="836"/>
       <point x="1316" y="818" type="curve" smooth="yes"/>
@@ -161,27 +161,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>52e728c85763f5f9370b2dc5ae3b547cd32dd7f24bf0672e6e8bc60ce2b7f949dfe10b7bcf19cfa21d524abbd796269e8312adda89f7bf4bb37d0b94b5dc94c6</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 443 20</string>
-          <string>hstem 752 74</string>
-          <string>hstem 865 15</string>
-          <string>hstem 1099 528</string>
-          <string>vstem 1316 75</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 443 20</string>
+              <string>hstem 752 74</string>
+              <string>hstem 865 15</string>
+              <string>hstem 1099 528</string>
+              <string>vstem 1316 75</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>52e728c85763f5f9370b2dc5ae3b547cd32dd7f24bf0672e6e8bc60ce2b7f949dfe10b7bcf19cfa21d524abbd796269e8312adda89f7bf4bb37d0b94b5dc94c6</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

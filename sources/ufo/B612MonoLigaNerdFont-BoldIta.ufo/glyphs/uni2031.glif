@@ -7,7 +7,7 @@
       <point x="1440" y="-16" type="curve" smooth="yes"/>
       <point x="1616" y="-16"/>
       <point x="1722" y="74"/>
-      <point x="1779" y="210" type="curve" smooth="yes"/>
+      <point x="1779" y="210" type="curve"/>
       <point x="1780" y="212"/>
       <point x="1780" y="214"/>
       <point x="1781" y="215" type="curve"/>
@@ -23,7 +23,7 @@
       <point x="2431" y="467" type="curve" smooth="yes"/>
       <point x="2431" y="480"/>
       <point x="2430" y="501"/>
-      <point x="2428" y="530" type="curve" smooth="yes"/>
+      <point x="2428" y="530" type="curve"/>
       <point x="2425" y="559"/>
       <point x="2414" y="590"/>
       <point x="2395" y="623" type="curve" smooth="yes"/>
@@ -32,7 +32,7 @@
       <point x="2171" y="727" type="curve" smooth="yes"/>
       <point x="1994" y="727"/>
       <point x="1888" y="640"/>
-      <point x="1832" y="506" type="curve" smooth="yes"/>
+      <point x="1832" y="506" type="curve"/>
       <point x="1831" y="504"/>
       <point x="1831" y="502"/>
       <point x="1830" y="500" type="curve"/>
@@ -42,7 +42,7 @@
       <point x="1571" y="727" type="curve" smooth="yes"/>
       <point x="1394" y="727"/>
       <point x="1288" y="640"/>
-      <point x="1232" y="506" type="curve" smooth="yes"/>
+      <point x="1232" y="506" type="curve"/>
       <point x="1231" y="504"/>
       <point x="1231" y="502"/>
       <point x="1230" y="500" type="curve"/>
@@ -100,7 +100,7 @@
       <point x="603" y="418" type="line"/>
       <point x="598" y="399"/>
       <point x="593" y="379"/>
-      <point x="590" y="359" type="curve" smooth="yes"/>
+      <point x="590" y="359" type="curve"/>
       <point x="583" y="320"/>
       <point x="580" y="282"/>
       <point x="580" y="247" type="curve" smooth="yes"/>
@@ -115,7 +115,7 @@
       <point x="840" y="-16" type="curve" smooth="yes"/>
       <point x="1016" y="-16"/>
       <point x="1122" y="74"/>
-      <point x="1179" y="210" type="curve" smooth="yes"/>
+      <point x="1179" y="210" type="curve"/>
       <point x="1180" y="212"/>
       <point x="1180" y="214"/>
       <point x="1181" y="215" type="curve"/>
@@ -213,35 +213,35 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>a615ca10736be7d23151514633bce4fbb35534589709a83171fd688e0a1c31060137c0654daae02463823bde6b1df895d9731641c1b26f3c7ea0b65bb132e1e0</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -16 210</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 529 198</string>
-          <string>hstem 746 210</string>
-          <string>hstem 1291 198</string>
-          <string>vstem 37 2394</string>
-          <string>vstem 71 260</string>
-          <string>vstem 467 255</string>
-          <string>vstem 580 260</string>
-          <string>vstem 976 254</string>
-          <string>vstem 1181 259</string>
-          <string>vstem 1576 254</string>
-          <string>vstem 1781 259</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -16 210</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 529 198</string>
+              <string>hstem 746 210</string>
+              <string>hstem 1291 198</string>
+              <string>vstem 37 2394</string>
+              <string>vstem 71 260</string>
+              <string>vstem 467 255</string>
+              <string>vstem 580 260</string>
+              <string>vstem 976 254</string>
+              <string>vstem 1181 259</string>
+              <string>vstem 1576 254</string>
+              <string>vstem 1781 259</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>a615ca10736be7d23151514633bce4fbb35534589709a83171fd688e0a1c31060137c0654daae02463823bde6b1df895d9731641c1b26f3c7ea0b65bb132e1e0</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

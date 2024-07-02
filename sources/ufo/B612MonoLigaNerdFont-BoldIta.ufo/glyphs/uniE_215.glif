@@ -36,10 +36,10 @@
       <point x="1240" y="191" type="curve" smooth="yes"/>
       <point x="1239" y="190"/>
       <point x="1235" y="186"/>
-      <point x="1230" y="180" type="curve" smooth="yes"/>
+      <point x="1230" y="180" type="curve"/>
       <point x="1225" y="173"/>
       <point x="1219" y="169"/>
-      <point x="1213" y="166" type="curve" smooth="yes"/>
+      <point x="1213" y="166" type="curve"/>
       <point x="1206" y="163"/>
       <point x="1198" y="161"/>
       <point x="1188" y="158" type="curve" smooth="yes"/>
@@ -67,7 +67,7 @@
       <point x="350" y="667" type="curve" smooth="yes"/>
       <point x="356" y="674"/>
       <point x="363" y="679"/>
-      <point x="371" y="682" type="curve" smooth="yes"/>
+      <point x="371" y="682" type="curve"/>
       <point x="383" y="686" type="line"/>
       <point x="1332" y="1045" type="line"/>
       <point x="1384" y="1068"/>
@@ -91,31 +91,31 @@
       <point x="754" y="455" type="line"/>
       <point x="753" y="455"/>
       <point x="756" y="458"/>
-      <point x="761" y="463" type="curve" smooth="yes"/>
+      <point x="761" y="463" type="curve"/>
       <point x="1050" y="716"/>
       <point x="1202" y="847"/>
       <point x="1215" y="857" type="curve"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>d32a73c22fa32336c156e30b8dc87bf6274c8257e7ec4f3faaaaa49e367bea9dca60254fc2fe20753b69872ade0de7b8ee6464d5a02ce10c48e0c8abf256aeb4</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>vstem 711 15</string>
-          <string>vstem 1410 488</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>vstem 711 15</string>
+              <string>vstem 1410 488</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>d32a73c22fa32336c156e30b8dc87bf6274c8257e7ec4f3faaaaa49e367bea9dca60254fc2fe20753b69872ade0de7b8ee6464d5a02ce10c48e0c8abf256aeb4</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

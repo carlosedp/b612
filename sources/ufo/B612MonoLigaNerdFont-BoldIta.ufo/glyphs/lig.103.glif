@@ -56,71 +56,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>b64f9a06a53a172d68e62a25e733234e127802cbc86c4489faa12e79e3a5a734c88b71d6a8c23ea1f7948ae411d99f5638c7e97912c474511549dfd89294ae2b</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 432 245</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 432 245</string>
+              <string>hstem 637 245</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>b64f9a06a53a172d68e62a25e733234e127802cbc86c4489faa12e79e3a5a734c88b71d6a8c23ea1f7948ae411d99f5638c7e97912c474511549dfd89294ae2b</string>
       </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 637 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 432 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 637 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 432 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr04</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 637 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr05</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 432 245</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr06</string>
-      </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

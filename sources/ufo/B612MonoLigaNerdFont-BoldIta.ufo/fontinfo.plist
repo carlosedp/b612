@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>ascender</key>
@@ -14,16 +14,26 @@
   <string>B612Mono Liga NerdFont</string>
   <key>guidelines</key>
   <array>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>m</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>500</integer>
-  </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>name</key>
+      <string>m</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>500</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>name</key>
+      <string>m</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>500</integer>
+    </dict>
   </array>
   <key>italicAngle</key>
   <integer>-10</integer>
@@ -31,20 +41,20 @@
   <string>B612Mono Liga NerdFont</string>
   <key>openTypeGaspRangeRecords</key>
   <array>
-  <dict>
-    <key>rangeGaspBehavior</key>
+    <dict>
+      <key>rangeGaspBehavior</key>
       <array>
         <integer>0</integer>
         <integer>1</integer>
         <integer>2</integer>
         <integer>3</integer>
       </array>
-    <key>rangeMaxPPEM</key>
-    <integer>65535</integer>
-  </dict>
+      <key>rangeMaxPPEM</key>
+      <integer>65535</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/12 15:14:46</string>
+  <string>2024/07/02 15:35:15</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -63,7 +73,7 @@
   <key>openTypeHheaDescender</key>
   <integer>-500</integer>
   <key>openTypeHheaLineGap</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeNameDesigner</key>
   <string>Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot</string>
   <key>openTypeNameDesignerURL</key>
@@ -79,9 +89,9 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>Version 1.009;;B612MonoLigaNerdFont-BoldIta;2019;FL801</string>
+  <string>Version 1.010;;B612MonoLigaNerdFont-BoldIta;2019;FL801</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.009</string>
+  <string>Version 1.010</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -113,14 +123,13 @@
     <integer>4</integer>
   </array>
   <key>openTypeOS2Selection</key>
-  <array>
-  </array>
+  <array/>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>500</integer>
   <key>openTypeOS2StrikeoutSize</key>
   <integer>100</integer>
   <key>openTypeOS2SubscriptXOffset</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeOS2SubscriptXSize</key>
   <integer>1300</integer>
   <key>openTypeOS2SubscriptYOffset</key>
@@ -128,7 +137,7 @@
   <key>openTypeOS2SubscriptYSize</key>
   <integer>1399</integer>
   <key>openTypeOS2SuperscriptXOffset</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeOS2SuperscriptXSize</key>
   <integer>1300</integer>
   <key>openTypeOS2SuperscriptYOffset</key>
@@ -136,14 +145,13 @@
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>1399</integer>
   <key>openTypeOS2Type</key>
-  <array>
-  </array>
+  <array/>
   <key>openTypeOS2TypoAscender</key>
   <integer>1600</integer>
   <key>openTypeOS2TypoDescender</key>
   <integer>-500</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
@@ -179,7 +187,7 @@
   <key>postscriptBlueScale</key>
   <real>0.039625</real>
   <key>postscriptBlueShift</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-17</integer>
@@ -230,7 +238,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>9</integer>
+  <integer>10</integer>
   <key>xHeight</key>
   <integer>1100</integer>
 </dict>

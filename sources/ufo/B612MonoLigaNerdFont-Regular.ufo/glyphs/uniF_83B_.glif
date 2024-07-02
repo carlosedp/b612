@@ -101,30 +101,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>2f94ce8e99ad31a492f87c8b60ec618c80cb28fae36ad61ca1b3ff83d965f6807ff9785f7b0af33e0c8f87893b25f4c6ecd707ac4ae6031477f42ec6b266e969</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -123 207</string>
-          <string>hstem 799 578</string>
-          <string>hstem 1193 184</string>
-          <string>vstem 0 184</string>
-          <string>vstem 0 207</string>
-          <string>vstem 438 156</string>
-          <string>vstem 828 231</string>
-          <string>vstem 1293 207</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -123 207</string>
+              <string>hstem 799 578</string>
+              <string>hstem 1193 184</string>
+              <string>vstem 0 184</string>
+              <string>vstem 0 207</string>
+              <string>vstem 438 156</string>
+              <string>vstem 828 231</string>
+              <string>vstem 1293 207</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>2f94ce8e99ad31a492f87c8b60ec618c80cb28fae36ad61ca1b3ff83d965f6807ff9785f7b0af33e0c8f87893b25f4c6ecd707ac4ae6031477f42ec6b266e969</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

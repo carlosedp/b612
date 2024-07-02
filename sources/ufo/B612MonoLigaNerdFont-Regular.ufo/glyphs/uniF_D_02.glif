@@ -7,7 +7,7 @@
       <point x="493" y="689" type="curve"/>
       <point x="485" y="700"/>
       <point x="475" y="707"/>
-      <point x="462" y="709" type="curve" smooth="yes"/>
+      <point x="462" y="709" type="curve"/>
       <point x="449" y="712"/>
       <point x="438" y="710"/>
       <point x="431" y="703" type="curve"/>
@@ -17,7 +17,7 @@
       <point x="5" y="-135" type="line"/>
       <point x="-6" y="-163"/>
       <point x="1" y="-185"/>
-      <point x="24" y="-201" type="curve" smooth="yes"/>
+      <point x="24" y="-201" type="curve"/>
       <point x="32" y="-206"/>
       <point x="40" y="-207"/>
       <point x="48" y="-205" type="curve"/>
@@ -53,36 +53,36 @@
       <point x="1274" y="635" type="line"/>
       <point x="1050" y="1086"/>
       <point x="917" y="1353"/>
-      <point x="876" y="1436" type="curve" smooth="yes"/>
+      <point x="876" y="1436" type="curve"/>
       <point x="871" y="1447"/>
       <point x="862" y="1454"/>
       <point x="851" y="1458" type="curve"/>
       <point x="839" y="1461"/>
       <point x="828" y="1461"/>
-      <point x="818" y="1456" type="curve" smooth="yes"/>
+      <point x="818" y="1456" type="curve"/>
       <point x="807" y="1451"/>
       <point x="799" y="1444"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>27edbfd70390490de6def22a6fd6836ad7b7894a13509c89911ab2339cd5d8cc2ae27d02707bba6c4cdd366ccef3ab770366a3292811b5e998e2b7094d7deb1d</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -206 1666</string>
-          <string>vstem 0 1666</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -206 1666</string>
+              <string>vstem 0 1666</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>27edbfd70390490de6def22a6fd6836ad7b7894a13509c89911ab2339cd5d8cc2ae27d02707bba6c4cdd366ccef3ab770366a3292811b5e998e2b7094d7deb1d</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

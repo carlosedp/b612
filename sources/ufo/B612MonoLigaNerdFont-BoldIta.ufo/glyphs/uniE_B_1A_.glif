@@ -63,13 +63,13 @@
       <point x="719" y="1007" type="curve"/>
       <point x="692" y="1029"/>
       <point x="661" y="1037"/>
-      <point x="625" y="1031" type="curve" smooth="yes"/>
+      <point x="625" y="1031" type="curve"/>
       <point x="589" y="1024"/>
       <point x="563" y="1007"/>
       <point x="545" y="978" type="curve" smooth="yes"/>
       <point x="527" y="949"/>
       <point x="522" y="917"/>
-      <point x="529" y="884" type="curve" smooth="yes"/>
+      <point x="529" y="884" type="curve"/>
       <point x="535" y="851"/>
       <point x="553" y="824"/>
       <point x="582" y="804" type="curve" smooth="yes"/>
@@ -119,27 +119,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>c841b897e14834904559ed2129f63a4b2cd6584fac8d594b81f34d44a5790cab6fc822ea1be1b38cb2813a864d3f6d46952f2209b25ebc7555cd0a190c6cd7d0</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 1031 130</string>
-          <string>hstem 1281 126</string>
-          <string>vstem 148 124</string>
-          <string>vstem 775 127</string>
-          <string>vstem 1032 120</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 1031 130</string>
+              <string>hstem 1281 126</string>
+              <string>vstem 148 124</string>
+              <string>vstem 775 127</string>
+              <string>vstem 1032 120</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>c841b897e14834904559ed2129f63a4b2cd6584fac8d594b81f34d44a5790cab6fc822ea1be1b38cb2813a864d3f6d46952f2209b25ebc7555cd0a190c6cd7d0</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

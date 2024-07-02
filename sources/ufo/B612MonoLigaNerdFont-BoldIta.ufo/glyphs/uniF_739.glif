@@ -7,7 +7,7 @@
       <point x="832" y="1" type="line"/>
       <point x="861" y="1"/>
       <point x="889" y="4"/>
-      <point x="918" y="9" type="curve" smooth="yes"/>
+      <point x="918" y="9" type="curve"/>
       <point x="947" y="15"/>
       <point x="978" y="32"/>
       <point x="1012" y="60" type="curve" smooth="yes"/>
@@ -89,47 +89,47 @@
       <point x="1250" y="751" type="curve" smooth="yes"/>
       <point x="1273" y="751"/>
       <point x="1293" y="744"/>
-      <point x="1309" y="728" type="curve" smooth="yes"/>
+      <point x="1309" y="728" type="curve"/>
       <point x="1324" y="712"/>
       <point x="1332" y="693"/>
       <point x="1332" y="669" type="curve" smooth="yes"/>
       <point x="1332" y="646"/>
       <point x="1324" y="627"/>
-      <point x="1309" y="611" type="curve" smooth="yes"/>
+      <point x="1309" y="611" type="curve"/>
       <point x="1293" y="595"/>
       <point x="1273" y="587"/>
       <point x="1250" y="587" type="curve" smooth="yes"/>
       <point x="1227" y="587"/>
       <point x="1207" y="595"/>
-      <point x="1192" y="611" type="curve" smooth="yes"/>
+      <point x="1192" y="611" type="curve"/>
       <point x="1176" y="627"/>
       <point x="1168" y="646"/>
       <point x="1168" y="669" type="curve" smooth="yes"/>
       <point x="1168" y="693"/>
       <point x="1176" y="712"/>
-      <point x="1192" y="728" type="curve" smooth="yes"/>
+      <point x="1192" y="728" type="curve"/>
       <point x="1207" y="744"/>
       <point x="1227" y="751"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>2a198c1cedb3aa7f1f99d1cda908596919805995ff822022808a7dc5279ecc569716e33b7a172d68bfd69dbd14edd86c29e7745cf19d1613a5067be5c983b992</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>vstem 1332 332</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>vstem 1332 332</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>2a198c1cedb3aa7f1f99d1cda908596919805995ff822022808a7dc5279ecc569716e33b7a172d68bfd69dbd14edd86c29e7745cf19d1613a5067be5c983b992</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

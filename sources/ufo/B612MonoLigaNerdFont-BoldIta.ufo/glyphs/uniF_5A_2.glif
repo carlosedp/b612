@@ -62,7 +62,7 @@
       <point x="1156" y="1184" type="line" smooth="yes"/>
       <point x="1143" y="1205"/>
       <point x="1125" y="1221"/>
-      <point x="1103" y="1233" type="curve" smooth="yes"/>
+      <point x="1103" y="1233" type="curve"/>
       <point x="1081" y="1244"/>
       <point x="1058" y="1251"/>
       <point x="1035" y="1254" type="curve"/>
@@ -164,30 +164,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>1f3f5a991794bbf7060c24fb1dead4cde1b536ec8c4504667f3735fd23df19c6aa6d4946198435c499e604320304a28bbbcac33495ecf17ed3d5cc3798fbebae</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -238 125</string>
-          <string>hstem 465 129</string>
-          <string>hstem 1196 296</string>
-          <string>vstem 0 129</string>
-          <string>vstem 707 125</string>
-          <string>vstem 1168 125</string>
-          <string>vstem 1184 296</string>
-          <string>vstem 1871 129</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -238 125</string>
+              <string>hstem 465 129</string>
+              <string>hstem 1196 296</string>
+              <string>vstem 0 129</string>
+              <string>vstem 707 125</string>
+              <string>vstem 1168 125</string>
+              <string>vstem 1184 296</string>
+              <string>vstem 1871 129</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>1f3f5a991794bbf7060c24fb1dead4cde1b536ec8c4504667f3735fd23df19c6aa6d4946198435c499e604320304a28bbbcac33495ecf17ed3d5cc3798fbebae</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

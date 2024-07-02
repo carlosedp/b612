@@ -21,13 +21,13 @@
       <point x="1571" y="1395" type="line" smooth="yes"/>
       <point x="1571" y="1406"/>
       <point x="1567" y="1416"/>
-      <point x="1558" y="1423" type="curve" smooth="yes"/>
+      <point x="1558" y="1423" type="curve"/>
       <point x="1551" y="1429"/>
       <point x="1544" y="1430"/>
       <point x="1536" y="1430" type="curve" smooth="yes"/>
       <point x="1534" y="1430"/>
       <point x="1531" y="1430"/>
-      <point x="1528" y="1429" type="curve" smooth="yes"/>
+      <point x="1528" y="1429" type="curve"/>
       <point x="1028" y="1322" type="line" smooth="yes"/>
       <point x="1012" y="1319"/>
       <point x="1000" y="1305"/>
@@ -47,7 +47,7 @@
       <point x="349" y="1263" type="curve"/>
       <point x="125" y="1190"/>
       <point x="14" y="974"/>
-      <point x="8" y="963" type="curve" smooth="yes"/>
+      <point x="8" y="963" type="curve"/>
       <point x="-10" y="927"/>
       <point x="4" y="885"/>
       <point x="39" y="867" type="curve"/>
@@ -82,42 +82,42 @@
       <point x="1000" y="1128"/>
       <point x="1012" y="1113"/>
       <point x="1028" y="1110" type="curve" smooth="yes"/>
-      <point x="1528" y="1003" type="line" smooth="yes"/>
+      <point x="1528" y="1003" type="line"/>
       <point x="1531" y="1002"/>
       <point x="1534" y="1002"/>
       <point x="1536" y="1002" type="curve" smooth="yes"/>
       <point x="1544" y="1002"/>
       <point x="1551" y="1004"/>
-      <point x="1558" y="1010" type="curve" smooth="yes"/>
+      <point x="1558" y="1010" type="curve"/>
       <point x="1567" y="1017"/>
       <point x="1571" y="1027"/>
       <point x="1571" y="1038" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>bd230ecea96541d3671c4a3ad9f714a759ae763e5b348c1919270c2962bf9381c18334dfeaa7c61b9b0464f158d49fc996fcff54cccbc92ce96912526a5456d8</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 1002 428</string>
-          <string>hstem 1145 143</string>
-          <string>hstem 1430 108</string>
-          <string>vstem 285 714</string>
-          <string>vstem 320 108</string>
-          <string>vstem 535 178</string>
-          <string>vstem 570 108</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 1002 428</string>
+              <string>hstem 1145 143</string>
+              <string>hstem 1430 108</string>
+              <string>vstem 285 714</string>
+              <string>vstem 320 108</string>
+              <string>vstem 535 178</string>
+              <string>vstem 570 108</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>bd230ecea96541d3671c4a3ad9f714a759ae763e5b348c1919270c2962bf9381c18334dfeaa7c61b9b0464f158d49fc996fcff54cccbc92ce96912526a5456d8</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

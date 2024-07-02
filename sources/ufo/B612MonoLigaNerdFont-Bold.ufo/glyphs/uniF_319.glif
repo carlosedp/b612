@@ -89,7 +89,7 @@
       <point x="668" y="545" type="curve" smooth="yes"/>
       <point x="668" y="565"/>
       <point x="658" y="582"/>
-      <point x="637" y="595" type="curve" smooth="yes"/>
+      <point x="637" y="595" type="curve"/>
       <point x="618" y="608"/>
       <point x="596" y="615"/>
       <point x="570" y="615" type="curve" smooth="yes"/>
@@ -205,36 +205,36 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>6e0b4b2beb2f1d63cda63814cc0f66cecee105e4b7d8cd408079262fd807b34d79c92d5211549a36c5430e669497afcbeda3818ad253a3f64b2d278459f654c8</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -373 54</string>
-          <string>hstem 87 83</string>
-          <string>hstem 228 149</string>
-          <string>hstem 228 387</string>
-          <string>hstem 677 164</string>
-          <string>hstem 927 336</string>
-          <string>hstem 1119 148</string>
-          <string>hstem 1572 55</string>
-          <string>vstem 0 55</string>
-          <string>vstem 285 82</string>
-          <string>vstem 484 196</string>
-          <string>vstem 508 199</string>
-          <string>vstem 1215 191</string>
-          <string>vstem 1945 55</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -373 54</string>
+              <string>hstem 87 83</string>
+              <string>hstem 228 149</string>
+              <string>hstem 228 387</string>
+              <string>hstem 677 164</string>
+              <string>hstem 927 336</string>
+              <string>hstem 1119 148</string>
+              <string>hstem 1572 55</string>
+              <string>vstem 0 55</string>
+              <string>vstem 285 82</string>
+              <string>vstem 484 196</string>
+              <string>vstem 508 199</string>
+              <string>vstem 1215 191</string>
+              <string>vstem 1945 55</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>6e0b4b2beb2f1d63cda63814cc0f66cecee105e4b7d8cd408079262fd807b34d79c92d5211549a36c5430e669497afcbeda3818ad253a3f64b2d278459f654c8</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

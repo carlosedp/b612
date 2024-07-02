@@ -33,7 +33,7 @@
       <point x="867" y="768" type="curve"/>
       <point x="847" y="783"/>
       <point x="831" y="800"/>
-      <point x="816" y="817" type="curve" smooth="yes"/>
+      <point x="816" y="817" type="curve"/>
       <point x="802" y="834"/>
       <point x="787" y="851"/>
       <point x="772" y="869" type="curve" smooth="yes"/>
@@ -82,7 +82,7 @@
       <point x="577" y="498" type="line"/>
       <point x="585" y="498"/>
       <point x="595" y="498"/>
-      <point x="608" y="496" type="curve" smooth="yes"/>
+      <point x="608" y="496" type="curve"/>
       <point x="620" y="495"/>
       <point x="641" y="482"/>
       <point x="670" y="457" type="curve" smooth="yes"/>
@@ -97,10 +97,10 @@
       <point x="1209" y="1424" type="curve"/>
       <point x="1206" y="1448"/>
       <point x="1194" y="1463"/>
-      <point x="1172" y="1471" type="curve" smooth="yes"/>
+      <point x="1172" y="1471" type="curve"/>
       <point x="1150" y="1478"/>
       <point x="1130" y="1477"/>
-      <point x="1113" y="1467" type="curve" smooth="yes"/>
+      <point x="1113" y="1467" type="curve"/>
       <point x="1096" y="1456"/>
       <point x="1089" y="1440"/>
       <point x="1092" y="1416" type="curve"/>
@@ -139,7 +139,7 @@
       <point x="1721" y="1479" type="curve"/>
       <point x="1739" y="1495"/>
       <point x="1746" y="1513"/>
-      <point x="1742" y="1535" type="curve" smooth="yes"/>
+      <point x="1742" y="1535" type="curve"/>
       <point x="1739" y="1557"/>
       <point x="1728" y="1572"/>
       <point x="1711" y="1580" type="curve" smooth="yes"/>
@@ -151,23 +151,23 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>f28e871c18ff931b8ca859595c2f95a3acbd3735e754913b5263e74e0718074f376a67817edc1ab7e02a27596ba4f921f840ed4861ad9104c0f2f7ecefc628ca</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>vstem 1091 117</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>vstem 1091 117</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>f28e871c18ff931b8ca859595c2f95a3acbd3735e754913b5263e74e0718074f376a67817edc1ab7e02a27596ba4f921f840ed4861ad9104c0f2f7ecefc628ca</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

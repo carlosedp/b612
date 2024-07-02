@@ -32,7 +32,7 @@
       <point x="231" y="873" type="line"/>
       <point x="232" y="877"/>
       <point x="233" y="881"/>
-      <point x="234" y="884" type="curve" smooth="yes"/>
+      <point x="234" y="884" type="curve"/>
       <point x="294" y="1107"/>
       <point x="551" y="1321"/>
       <point x="567" y="1405" type="curve"/>
@@ -96,31 +96,31 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>8fe8f40024ca06ee14f2285505fc18ff3632328c3c9c1f2d642ee5990a47c9634ab916f73f9a50ff27da5d9f4987c89531f5668d3530b21aa899aa29f7a80b83</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -9 81</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 681 77</string>
-          <string>hstem 1390 80</string>
-          <string>vstem 100 99</string>
-          <string>vstem 718 94</string>
-          <string>vstem 820 94</string>
-          <string>vstem 1116 95</string>
-          <string>vstem 1136 92</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 81</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 681 77</string>
+              <string>hstem 1390 80</string>
+              <string>vstem 100 99</string>
+              <string>vstem 718 94</string>
+              <string>vstem 820 94</string>
+              <string>vstem 1116 95</string>
+              <string>vstem 1136 92</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>8fe8f40024ca06ee14f2285505fc18ff3632328c3c9c1f2d642ee5990a47c9634ab916f73f9a50ff27da5d9f4987c89531f5668d3530b21aa899aa29f7a80b83</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

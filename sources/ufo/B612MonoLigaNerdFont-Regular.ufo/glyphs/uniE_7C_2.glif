@@ -25,7 +25,7 @@
       <point x="700" y="786" type="curve" smooth="yes"/>
       <point x="668" y="786"/>
       <point x="642" y="778"/>
-      <point x="624" y="763" type="curve" smooth="yes"/>
+      <point x="624" y="763" type="curve"/>
       <point x="606" y="747"/>
       <point x="594" y="723"/>
       <point x="589" y="692" type="curve" smooth="yes"/>
@@ -34,7 +34,7 @@
       <point x="584" y="661" type="curve" smooth="yes"/>
       <point x="582" y="651"/>
       <point x="580" y="640"/>
-      <point x="579" y="628" type="curve" smooth="yes"/>
+      <point x="579" y="628" type="curve"/>
       <point x="576" y="603"/>
       <point x="573" y="577"/>
       <point x="570" y="550" type="curve" smooth="yes"/>
@@ -54,10 +54,10 @@
       <point x="648" y="590" type="curve" smooth="yes"/>
       <point x="652" y="619"/>
       <point x="656" y="647"/>
-      <point x="659" y="674" type="curve" smooth="yes"/>
+      <point x="659" y="674" type="curve"/>
       <point x="661" y="687"/>
       <point x="666" y="697"/>
-      <point x="672" y="704" type="curve" smooth="yes"/>
+      <point x="672" y="704" type="curve"/>
       <point x="678" y="710"/>
       <point x="688" y="712"/>
       <point x="702" y="711" type="curve"/>
@@ -65,24 +65,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>846b91f5416f06d12fb2a43bb7fc2c9363c7ed7e90bc896dc9bde189ed7e48f9f89e99624d95f6bf30722aa55a8ef9ac7016b8f2669151249db601b1750f447a</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 711 75</string>
-          <string>vstem 559 177</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 711 75</string>
+              <string>vstem 559 177</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>846b91f5416f06d12fb2a43bb7fc2c9363c7ed7e90bc896dc9bde189ed7e48f9f89e99624d95f6bf30722aa55a8ef9ac7016b8f2669151249db601b1750f447a</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

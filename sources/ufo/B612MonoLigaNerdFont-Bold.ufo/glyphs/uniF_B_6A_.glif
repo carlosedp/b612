@@ -61,7 +61,7 @@
       <point x="1750" y="1262" type="curve" smooth="yes"/>
       <point x="1750" y="1285"/>
       <point x="1742" y="1304"/>
-      <point x="1727" y="1320" type="curve" smooth="yes"/>
+      <point x="1727" y="1320" type="curve"/>
       <point x="1711" y="1336"/>
       <point x="1691" y="1345"/>
       <point x="1668" y="1348" type="curve"/>
@@ -95,24 +95,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>95be9f88cba1350df5d416594b0aa45029c9792ca4241c0119a4556c59a17d50b78469cc27ebb243146de688ed5a45cab8c39e7caeae95b737e6cf458ef195fa</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -152 332</string>
-          <string>vstem 418 332</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -152 332</string>
+              <string>vstem 418 332</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>95be9f88cba1350df5d416594b0aa45029c9792ca4241c0119a4556c59a17d50b78469cc27ebb243146de688ed5a45cab8c39e7caeae95b737e6cf458ef195fa</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

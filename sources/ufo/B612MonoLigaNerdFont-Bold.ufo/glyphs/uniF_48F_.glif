@@ -121,34 +121,34 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>d169caf4867db42a700f66a1e8cc35d7ab888fdac1325c9eb3962d67ce9bc1da55232618c30b28d91d0a55a0afe0cb803ada90837a66c4fb924e1a3dca908887</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -310 250</string>
-          <string>hstem 564 125</string>
-          <string>hstem 939 125</string>
-          <string>hstem 1439 125</string>
-          <string>vstem 0 125</string>
-          <string>vstem 125 125</string>
-          <string>vstem 125 250</string>
-          <string>vstem 625 125</string>
-          <string>vstem 875 125</string>
-          <string>vstem 1125 250</string>
-          <string>vstem 1250 125</string>
-          <string>vstem 1375 125</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -310 250</string>
+              <string>hstem 564 125</string>
+              <string>hstem 939 125</string>
+              <string>hstem 1439 125</string>
+              <string>vstem 0 125</string>
+              <string>vstem 125 125</string>
+              <string>vstem 125 250</string>
+              <string>vstem 625 125</string>
+              <string>vstem 875 125</string>
+              <string>vstem 1125 250</string>
+              <string>vstem 1250 125</string>
+              <string>vstem 1375 125</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>d169caf4867db42a700f66a1e8cc35d7ab888fdac1325c9eb3962d67ce9bc1da55232618c30b28d91d0a55a0afe0cb803ada90837a66c4fb924e1a3dca908887</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

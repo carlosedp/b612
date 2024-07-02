@@ -31,7 +31,7 @@
       <point x="1417" y="215" type="curve"/>
       <point x="1416" y="217"/>
       <point x="1416" y="220"/>
-      <point x="1415" y="223" type="curve" smooth="yes"/>
+      <point x="1415" y="223" type="curve"/>
       <point x="1325" y="556" type="line"/>
       <point x="1506" y="556" type="line"/>
     </contour>
@@ -57,10 +57,10 @@
       <point x="1984" y="985"/>
       <point x="1964" y="985" type="curve" smooth="yes"/>
       <point x="1840" y="985" type="line"/>
-      <point x="1942" y="1369" type="line" smooth="yes"/>
+      <point x="1942" y="1369" type="line"/>
       <point x="1945" y="1379"/>
       <point x="1943" y="1391"/>
-      <point x="1936" y="1400" type="curve" smooth="yes"/>
+      <point x="1936" y="1400" type="curve"/>
       <point x="1929" y="1408"/>
       <point x="1918" y="1413"/>
       <point x="1907" y="1413" type="curve" smooth="yes"/>
@@ -87,7 +87,7 @@
       <point x="93" y="1413" type="line" smooth="yes"/>
       <point x="82" y="1413"/>
       <point x="71" y="1408"/>
-      <point x="64" y="1400" type="curve" smooth="yes"/>
+      <point x="64" y="1400" type="curve"/>
       <point x="57" y="1391"/>
       <point x="55" y="1380"/>
       <point x="58" y="1369" type="curve" smooth="yes"/>
@@ -137,24 +137,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>a1ea4bf8f60665ec43c805b34e27863c9f45d6af32e7836ad8b4f2610828d0eb58a56a96be9ade51f5649da42ff44134e03a21e19028d6378af37403fe893b68</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 556 143</string>
-          <string>hstem 842 143</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 556 143</string>
+              <string>hstem 842 143</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>a1ea4bf8f60665ec43c805b34e27863c9f45d6af32e7836ad8b4f2610828d0eb58a56a96be9ade51f5649da42ff44134e03a21e19028d6378af37403fe893b68</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

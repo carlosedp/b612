@@ -97,24 +97,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>a8d4ba30c0ef61534f899834d264d480201f85dd0046c12e1ece963c7919f1316196d0ef8bb088ba7341201037f1b7faa09c5caa59f23330062963875f456aca</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -55 1364</string>
-          <string>vstem 0 1364</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -55 1364</string>
+              <string>vstem 0 1364</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>a8d4ba30c0ef61534f899834d264d480201f85dd0046c12e1ece963c7919f1316196d0ef8bb088ba7341201037f1b7faa09c5caa59f23330062963875f456aca</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

@@ -14,13 +14,13 @@
       <point x="508" y="193" type="line"/>
       <point x="518" y="172"/>
       <point x="530" y="156"/>
-      <point x="545" y="143" type="curve" smooth="yes"/>
+      <point x="545" y="143" type="curve"/>
       <point x="559" y="130"/>
       <point x="577" y="122"/>
       <point x="600" y="121" type="curve" smooth="yes"/>
       <point x="622" y="120"/>
       <point x="640" y="126"/>
-      <point x="655" y="139" type="curve" smooth="yes"/>
+      <point x="655" y="139" type="curve"/>
       <point x="669" y="152"/>
       <point x="676" y="175"/>
       <point x="676" y="209" type="curve" smooth="yes"/>
@@ -44,7 +44,7 @@
       <point x="1008" y="205" type="line"/>
       <point x="1023" y="179"/>
       <point x="1042" y="158"/>
-      <point x="1063" y="143" type="curve" smooth="yes"/>
+      <point x="1063" y="143" type="curve"/>
       <point x="1084" y="127"/>
       <point x="1110" y="119"/>
       <point x="1143" y="119" type="curve" smooth="yes"/>
@@ -85,7 +85,7 @@
       <point x="1074" y="514" type="curve"/>
       <point x="1074" y="493"/>
       <point x="1081" y="476"/>
-      <point x="1096" y="465" type="curve" smooth="yes"/>
+      <point x="1096" y="465" type="curve"/>
       <point x="1110" y="454"/>
       <point x="1131" y="441"/>
       <point x="1160" y="428" type="curve" smooth="yes"/>
@@ -110,28 +110,28 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>41a43a8355efa7a262e7e18d038e1002668faeaa00819542e3a336015a56eec586cf90746ac19fc50b5fd286ba95a4ca05adc3f8b079eb8bc5c4120a4573aae3</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -123 117</string>
-          <string>hstem 119 164</string>
-          <string>hstem 465 107</string>
-          <string>vstem 0 676</string>
-          <string>vstem 816 122</string>
-          <string>vstem 1383 117</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -123 117</string>
+              <string>hstem 119 164</string>
+              <string>hstem 465 107</string>
+              <string>vstem 0 676</string>
+              <string>vstem 816 122</string>
+              <string>vstem 1383 117</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>41a43a8355efa7a262e7e18d038e1002668faeaa00819542e3a336015a56eec586cf90746ac19fc50b5fd286ba95a4ca05adc3f8b079eb8bc5c4120a4573aae3</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

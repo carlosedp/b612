@@ -42,7 +42,7 @@
       <point x="675" y="201" type="curve"/>
       <point x="675" y="209"/>
       <point x="660" y="208"/>
-      <point x="629" y="198" type="curve" smooth="yes"/>
+      <point x="629" y="198" type="curve"/>
       <point x="598" y="187"/>
       <point x="566" y="161"/>
       <point x="535" y="118" type="curve" smooth="yes"/>
@@ -66,13 +66,13 @@
       <point x="1269" y="117" type="curve" smooth="yes"/>
       <point x="1238" y="160"/>
       <point x="1207" y="187"/>
-      <point x="1177" y="198" type="curve" smooth="yes"/>
+      <point x="1177" y="198" type="curve"/>
       <point x="1147" y="208"/>
       <point x="1131" y="209"/>
       <point x="1129" y="201" type="curve"/>
       <point x="1132" y="235"/>
       <point x="1134" y="263"/>
-      <point x="1137" y="284" type="curve" smooth="yes"/>
+      <point x="1137" y="284" type="curve"/>
       <point x="1139" y="305"/>
       <point x="1141" y="319"/>
       <point x="1142" y="327" type="curve" smooth="yes"/>
@@ -113,25 +113,25 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>aeac25d4419720532d4cb2b18468ea0ff454316c0340a6dbfdb7b9e4b958d7e6356f07212cf6665ae97cd8537976f83dd0e144789130997a0abc263ff02bbe1f</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>vstem 0 1808</string>
-          <string>vstem 488 828</string>
-          <string>vstem 664 11</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>vstem 0 1808</string>
+              <string>vstem 488 828</string>
+              <string>vstem 664 11</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>aeac25d4419720532d4cb2b18468ea0ff454316c0340a6dbfdb7b9e4b958d7e6356f07212cf6665ae97cd8537976f83dd0e144789130997a0abc263ff02bbe1f</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

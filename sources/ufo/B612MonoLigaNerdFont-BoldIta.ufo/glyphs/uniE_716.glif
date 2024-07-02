@@ -64,7 +64,7 @@
       <point x="703" y="1331" type="curve" smooth="yes"/>
       <point x="691" y="1331"/>
       <point x="680" y="1327"/>
-      <point x="670" y="1321" type="curve" smooth="yes"/>
+      <point x="670" y="1321" type="curve"/>
       <point x="27" y="891" type="line"/>
       <point x="25" y="891" type="line"/>
       <point x="24" y="890" type="line"/>
@@ -174,10 +174,10 @@
       <point x="25" y="362"/>
       <point x="26" y="362"/>
       <point x="27" y="362" type="curve"/>
-      <point x="670" y="-67" type="line" smooth="yes"/>
+      <point x="670" y="-67" type="line"/>
       <point x="675" y="-71"/>
       <point x="681" y="-73"/>
-      <point x="687" y="-75" type="curve" smooth="yes"/>
+      <point x="687" y="-75" type="curve"/>
       <point x="692" y="-76"/>
       <point x="698" y="-77"/>
       <point x="703" y="-77" type="curve" smooth="yes"/>
@@ -186,7 +186,7 @@
       <point x="720" y="-75" type="curve"/>
       <point x="725" y="-73"/>
       <point x="731" y="-71"/>
-      <point x="736" y="-67" type="curve" smooth="yes"/>
+      <point x="736" y="-67" type="curve"/>
       <point x="1379" y="362" type="line"/>
       <point x="1380" y="362"/>
       <point x="1381" y="362"/>
@@ -285,27 +285,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>8f14d9ef853eeca36a74928f8312047607a7fd2785f156bb090a722d7e53b7cb07bfa0434f61415f2173d6855edba160ce0afa01d3a43f168322820de5f3eded</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 366 160</string>
-          <string>hstem 874 14</string>
-          <string>vstem 0 121</string>
-          <string>vstem 642 122</string>
-          <string>vstem 1285 121</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 366 160</string>
+              <string>hstem 874 14</string>
+              <string>vstem 0 121</string>
+              <string>vstem 642 122</string>
+              <string>vstem 1285 121</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>8f14d9ef853eeca36a74928f8312047607a7fd2785f156bb090a722d7e53b7cb07bfa0434f61415f2173d6855edba160ce0afa01d3a43f168322820de5f3eded</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

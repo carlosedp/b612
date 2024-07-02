@@ -91,7 +91,7 @@
       <point x="1082" y="479" type="curve" smooth="yes"/>
       <point x="1063" y="452"/>
       <point x="1041" y="430"/>
-      <point x="1015" y="412" type="curve" smooth="yes"/>
+      <point x="1015" y="412" type="curve"/>
       <point x="992" y="397"/>
       <point x="966" y="384"/>
       <point x="937" y="373" type="curve"/>
@@ -142,28 +142,28 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>e2ca830abaf62214d236a5620514fddab025447b32a076be33d71ce2d3856eec861eed053435f326a8da382ade6f16bae2d86cba9aab5e595123a2193138ac13</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 213 133</string>
-          <string>hstem 908 137</string>
-          <string>vstem 0 187</string>
-          <string>vstem 423 185</string>
-          <string>vstem 699 184</string>
-          <string>vstem 1121 187</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 213 133</string>
+              <string>hstem 908 137</string>
+              <string>vstem 0 187</string>
+              <string>vstem 423 185</string>
+              <string>vstem 699 184</string>
+              <string>vstem 1121 187</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>e2ca830abaf62214d236a5620514fddab025447b32a076be33d71ce2d3856eec861eed053435f326a8da382ade6f16bae2d86cba9aab5e595123a2193138ac13</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

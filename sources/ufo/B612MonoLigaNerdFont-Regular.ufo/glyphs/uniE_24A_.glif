@@ -19,7 +19,7 @@
       <point x="904" y="342" type="curve" smooth="yes"/>
       <point x="904" y="376"/>
       <point x="909" y="406"/>
-      <point x="920" y="432" type="curve" smooth="yes"/>
+      <point x="920" y="432" type="curve"/>
       <point x="930" y="458"/>
       <point x="935" y="480"/>
       <point x="935" y="498" type="curve" smooth="yes"/>
@@ -51,7 +51,7 @@
       <point x="365" y="502" type="curve" smooth="yes"/>
       <point x="365" y="481"/>
       <point x="370" y="458"/>
-      <point x="381" y="432" type="curve" smooth="yes"/>
+      <point x="381" y="432" type="curve"/>
       <point x="391" y="406"/>
       <point x="396" y="376"/>
       <point x="396" y="342" type="curve" smooth="yes"/>
@@ -88,30 +88,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>ca84a24501e01c84d1aaf03045b970db7d5db021c52cb7783a1b4fd5d34dac9b46a8e39a16b641a030bdaba617a31d91b1cabe3b532798e20034b86c99c2043e</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -326 129</string>
-          <string>hstem -135 317</string>
-          <string>hstem 1295 285</string>
-          <string>vstem 365 191</string>
-          <string>vstem 396 94</string>
-          <string>vstem 556 188</string>
-          <string>vstem 744 191</string>
-          <string>vstem 810 94</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -326 129</string>
+              <string>hstem -135 317</string>
+              <string>hstem 1295 285</string>
+              <string>vstem 365 191</string>
+              <string>vstem 396 94</string>
+              <string>vstem 556 188</string>
+              <string>vstem 744 191</string>
+              <string>vstem 810 94</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>ca84a24501e01c84d1aaf03045b970db7d5db021c52cb7783a1b4fd5d34dac9b46a8e39a16b641a030bdaba617a31d91b1cabe3b532798e20034b86c99c2043e</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

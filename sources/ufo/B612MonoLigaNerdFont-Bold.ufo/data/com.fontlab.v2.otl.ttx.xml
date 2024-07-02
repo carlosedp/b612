@@ -49,9 +49,9 @@
         <DefaultLangSys>
           <ReqFeatureIndex value="65535"/>
           <!-- FeatureCount=3 -->
-          <FeatureIndex index="0" value="12"/>
-          <FeatureIndex index="1" value="39"/>
-          <FeatureIndex index="2" value="51"/>
+          <FeatureIndex index="0" value="9"/>
+          <FeatureIndex index="1" value="42"/>
+          <FeatureIndex index="2" value="45"/>
         </DefaultLangSys>
         <!-- LangSysCount=1 -->
         <LangSysRecord index="0">
@@ -59,9 +59,9 @@
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
-            <FeatureIndex index="0" value="9"/>
-            <FeatureIndex index="1" value="42"/>
-            <FeatureIndex index="2" value="45"/>
+            <FeatureIndex index="0" value="12"/>
+            <FeatureIndex index="1" value="39"/>
+            <FeatureIndex index="2" value="51"/>
           </LangSys>
         </LangSysRecord>
       </Script>
@@ -111,9 +111,9 @@
         <DefaultLangSys>
           <ReqFeatureIndex value="65535"/>
           <!-- FeatureCount=3 -->
-          <FeatureIndex index="0" value="4"/>
-          <FeatureIndex index="1" value="29"/>
-          <FeatureIndex index="2" value="59"/>
+          <FeatureIndex index="0" value="19"/>
+          <FeatureIndex index="1" value="28"/>
+          <FeatureIndex index="2" value="58"/>
         </DefaultLangSys>
         <!-- LangSysCount=11 -->
         <LangSysRecord index="0">
@@ -131,23 +131,13 @@
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
-            <FeatureIndex index="0" value="19"/>
-            <FeatureIndex index="1" value="28"/>
-            <FeatureIndex index="2" value="58"/>
-          </LangSys>
-        </LangSysRecord>
-        <LangSysRecord index="2">
-          <LangSysTag value="GAL "/>
-          <LangSys>
-            <ReqFeatureIndex value="65535"/>
-            <!-- FeatureCount=3 -->
             <FeatureIndex index="0" value="17"/>
             <FeatureIndex index="1" value="31"/>
             <FeatureIndex index="2" value="55"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="3">
-          <LangSysTag value="ISM "/>
+        <LangSysRecord index="2">
+          <LangSysTag value="GAL "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -156,8 +146,8 @@
             <FeatureIndex index="2" value="52"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="4">
-          <LangSysTag value="KSM "/>
+        <LangSysRecord index="3">
+          <LangSysTag value="ISM "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -166,8 +156,8 @@
             <FeatureIndex index="2" value="49"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="5">
-          <LangSysTag value="LSM "/>
+        <LangSysRecord index="4">
+          <LangSysTag value="KSM "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -176,8 +166,8 @@
             <FeatureIndex index="2" value="46"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="6">
-          <LangSysTag value="MOL "/>
+        <LangSysRecord index="5">
+          <LangSysTag value="LSM "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -186,8 +176,8 @@
             <FeatureIndex index="2" value="44"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="7">
-          <LangSysTag value="NSM "/>
+        <LangSysRecord index="6">
+          <LangSysTag value="MOL "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -196,8 +186,8 @@
             <FeatureIndex index="2" value="47"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="8">
-          <LangSysTag value="ROM "/>
+        <LangSysRecord index="7">
+          <LangSysTag value="NSM "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -206,8 +196,8 @@
             <FeatureIndex index="2" value="50"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="9">
-          <LangSysTag value="SKS "/>
+        <LangSysRecord index="8">
+          <LangSysTag value="ROM "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
@@ -216,14 +206,24 @@
             <FeatureIndex index="2" value="53"/>
           </LangSys>
         </LangSysRecord>
-        <LangSysRecord index="10">
-          <LangSysTag value="SSM "/>
+        <LangSysRecord index="9">
+          <LangSysTag value="SKS "/>
           <LangSys>
             <ReqFeatureIndex value="65535"/>
             <!-- FeatureCount=3 -->
             <FeatureIndex index="0" value="5"/>
             <FeatureIndex index="1" value="32"/>
             <FeatureIndex index="2" value="56"/>
+          </LangSys>
+        </LangSysRecord>
+        <LangSysRecord index="10">
+          <LangSysTag value="SSM "/>
+          <LangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=3 -->
+            <FeatureIndex index="0" value="4"/>
+            <FeatureIndex index="1" value="29"/>
+            <FeatureIndex index="2" value="59"/>
           </LangSys>
         </LangSysRecord>
       </Script>

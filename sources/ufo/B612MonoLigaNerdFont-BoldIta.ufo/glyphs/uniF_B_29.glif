@@ -13,13 +13,13 @@
       <point x="1832" y="465" type="curve" smooth="yes"/>
       <point x="1832" y="594"/>
       <point x="1797" y="711"/>
-      <point x="1727" y="818" type="curve" smooth="yes"/>
+      <point x="1727" y="818" type="curve"/>
       <point x="1719" y="831"/>
       <point x="1707" y="840"/>
       <point x="1690" y="844" type="curve" smooth="yes"/>
       <point x="1673" y="848"/>
       <point x="1657" y="845"/>
-      <point x="1643" y="834" type="curve" smooth="yes"/>
+      <point x="1643" y="834" type="curve"/>
       <point x="1628" y="823"/>
       <point x="1620" y="810"/>
       <point x="1617" y="795" type="curve" smooth="yes"/>
@@ -37,7 +37,7 @@
       <point x="1617" y="135" type="curve" smooth="yes"/>
       <point x="1620" y="119"/>
       <point x="1628" y="107"/>
-      <point x="1641" y="100" type="curve" smooth="yes"/>
+      <point x="1641" y="100" type="curve"/>
       <point x="1654" y="92"/>
       <point x="1665" y="87"/>
     </contour>
@@ -57,13 +57,13 @@
       <point x="1516" y="744" type="curve" smooth="yes"/>
       <point x="1500" y="747"/>
       <point x="1485" y="744"/>
-      <point x="1471" y="735" type="curve" smooth="yes"/>
+      <point x="1471" y="735" type="curve"/>
       <point x="1456" y="726"/>
       <point x="1447" y="713"/>
       <point x="1443" y="697" type="curve" smooth="yes"/>
       <point x="1439" y="681"/>
       <point x="1442" y="665"/>
-      <point x="1453" y="650" type="curve" smooth="yes"/>
+      <point x="1453" y="650" type="curve"/>
       <point x="1490" y="595"/>
       <point x="1508" y="534"/>
       <point x="1508" y="467" type="curve" smooth="yes"/>
@@ -75,7 +75,7 @@
       <point x="1444" y="237" type="curve"/>
       <point x="1447" y="221"/>
       <point x="1455" y="209"/>
-      <point x="1467" y="200" type="curve" smooth="yes"/>
+      <point x="1467" y="200" type="curve"/>
       <point x="1478" y="191"/>
       <point x="1489" y="186"/>
     </contour>
@@ -102,7 +102,7 @@
       <point x="514" y="643" type="curve" smooth="yes"/>
       <point x="531" y="643"/>
       <point x="545" y="650"/>
-      <point x="557" y="663" type="curve" smooth="yes"/>
+      <point x="557" y="663" type="curve"/>
       <point x="568" y="676"/>
       <point x="574" y="690"/>
       <point x="575" y="705" type="curve"/>
@@ -129,7 +129,7 @@
       <point x="1082" y="572" type="curve" smooth="yes"/>
       <point x="1077" y="554"/>
       <point x="1077" y="538"/>
-      <point x="1084" y="524" type="curve" smooth="yes"/>
+      <point x="1084" y="524" type="curve"/>
       <point x="1091" y="509"/>
       <point x="1102" y="499"/>
       <point x="1117" y="494" type="curve"/>
@@ -193,28 +193,28 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>5d789b8cd51b2f59892cd585ebc2a426b54ba6e006ddd62bbbbcc444c32748444c23a7d11c139ad40824ca0490119323ced241e892d6789cbb9539c15d19c458</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 193 122</string>
-          <string>hstem 1045 125</string>
-          <string>vstem 0 125</string>
-          <string>vstem 1309 125</string>
-          <string>vstem 1508 121</string>
-          <string>vstem 1711 121</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 193 122</string>
+              <string>hstem 1045 125</string>
+              <string>vstem 0 125</string>
+              <string>vstem 1309 125</string>
+              <string>vstem 1508 121</string>
+              <string>vstem 1711 121</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>5d789b8cd51b2f59892cd585ebc2a426b54ba6e006ddd62bbbbcc444c32748444c23a7d11c139ad40824ca0490119323ced241e892d6789cbb9539c15d19c458</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

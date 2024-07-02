@@ -20,7 +20,7 @@
       <point x="723" y="736" type="line"/>
       <point x="694" y="744"/>
       <point x="668" y="753"/>
-      <point x="643" y="764" type="curve" smooth="yes"/>
+      <point x="643" y="764" type="curve"/>
       <point x="618" y="774"/>
       <point x="605" y="792"/>
       <point x="602" y="818" type="curve"/>
@@ -60,7 +60,7 @@
       <point x="820" y="553" type="line" smooth="yes"/>
       <point x="849" y="545"/>
       <point x="868" y="534"/>
-      <point x="879" y="520" type="curve" smooth="yes"/>
+      <point x="879" y="520" type="curve"/>
       <point x="890" y="505"/>
       <point x="895" y="490"/>
       <point x="895" y="475" type="curve" smooth="yes"/>
@@ -190,30 +190,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>2f80b331e756db2cbcc312737d7e8e9b2ac0ff69c267d4633b2eb764d65fa0d41a4752b8ac9a08032e509e54f1dec46ee81e2e379ee4ee031a830f3707482535</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -123 168</string>
-          <string>hstem 248 129</string>
-          <string>hstem 908 133</string>
-          <string>hstem 1209 168</string>
-          <string>vstem 0 168</string>
-          <string>vstem 434 168</string>
-          <string>vstem 895 175</string>
-          <string>vstem 1332 168</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -123 168</string>
+              <string>hstem 248 129</string>
+              <string>hstem 908 133</string>
+              <string>hstem 1209 168</string>
+              <string>vstem 0 168</string>
+              <string>vstem 434 168</string>
+              <string>vstem 895 175</string>
+              <string>vstem 1332 168</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>2f80b331e756db2cbcc312737d7e8e9b2ac0ff69c267d4633b2eb764d65fa0d41a4752b8ac9a08032e509e54f1dec46ee81e2e379ee4ee031a830f3707482535</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

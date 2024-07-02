@@ -45,7 +45,7 @@
       <point x="828" y="92" type="curve" smooth="yes"/>
       <point x="828" y="482" type="line"/>
       <point x="1001" y="482" type="line"/>
-      <point x="1218" y="75" type="line" smooth="yes"/>
+      <point x="1218" y="75" type="line"/>
       <point x="1224" y="63"/>
       <point x="1236" y="56"/>
       <point x="1249" y="56" type="curve" smooth="yes"/>
@@ -87,30 +87,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>834aab8953a2537ff058980c9a81bfd8c2741c44e8aa96b37a123bc4e036846ad3f838e7462cacd42e5de8d6f79281e906741845eea8415a40c6b7009caf8f6e</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -373 179</string>
-          <string>hstem 482 202</string>
-          <string>hstem 998 201</string>
-          <string>hstem 1449 178</string>
-          <string>vstem 0 179</string>
-          <string>vstem 607 221</string>
-          <string>vstem 1163 224</string>
-          <string>vstem 1821 179</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -373 179</string>
+              <string>hstem 482 202</string>
+              <string>hstem 998 201</string>
+              <string>hstem 1449 178</string>
+              <string>vstem 0 179</string>
+              <string>vstem 607 221</string>
+              <string>vstem 1163 224</string>
+              <string>vstem 1821 179</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>834aab8953a2537ff058980c9a81bfd8c2741c44e8aa96b37a123bc4e036846ad3f838e7462cacd42e5de8d6f79281e906741845eea8415a40c6b7009caf8f6e</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

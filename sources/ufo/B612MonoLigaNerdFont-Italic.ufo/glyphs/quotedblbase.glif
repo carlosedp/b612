@@ -22,7 +22,7 @@
       <point x="442" y="95" type="line" smooth="yes"/>
       <point x="442" y="176"/>
       <point x="398" y="218"/>
-      <point x="339" y="226" type="curve" smooth="yes"/>
+      <point x="339" y="226" type="curve"/>
       <point x="333" y="227"/>
       <point x="327" y="227"/>
       <point x="321" y="227" type="curve" smooth="yes"/>
@@ -51,7 +51,7 @@
       <point x="842" y="95" type="line" smooth="yes"/>
       <point x="842" y="176"/>
       <point x="798" y="218"/>
-      <point x="739" y="226" type="curve" smooth="yes"/>
+      <point x="739" y="226" type="curve"/>
       <point x="733" y="227"/>
       <point x="727" y="227"/>
       <point x="721" y="227" type="curve" smooth="yes"/>
@@ -63,26 +63,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>f5c05a21b6286ee5caaadc8012dd89c6977da4866524977e5a4a256534707b6f7713ede0cf8ac7658299cb5b0d7e9bd6375d5b0db65754a3aa4defcbd3aee09d</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -16 243</string>
-          <string>hstem 5 -21</string>
-          <string>vstem 194 248</string>
-          <string>vstem 594 248</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -16 243</string>
+              <string>hstem 5 -21</string>
+              <string>vstem 194 248</string>
+              <string>vstem 594 248</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>f5c05a21b6286ee5caaadc8012dd89c6977da4866524977e5a4a256534707b6f7713ede0cf8ac7658299cb5b0d7e9bd6375d5b0db65754a3aa4defcbd3aee09d</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

@@ -22,7 +22,7 @@
       <point x="557" y="784" type="curve" smooth="yes"/>
       <point x="525" y="753"/>
       <point x="506" y="716"/>
-      <point x="499" y="673" type="curve" smooth="yes"/>
+      <point x="499" y="673" type="curve"/>
       <point x="496" y="659"/>
       <point x="494" y="645"/>
       <point x="492" y="631" type="curve" smooth="yes"/>
@@ -31,7 +31,7 @@
       <point x="487" y="588" type="curve"/>
       <point x="483" y="560"/>
       <point x="479" y="531"/>
-      <point x="476" y="503" type="curve" smooth="yes"/>
+      <point x="476" y="503" type="curve"/>
       <point x="472" y="475"/>
       <point x="469" y="446"/>
       <point x="466" y="416" type="curve"/>
@@ -39,7 +39,7 @@
       <point x="536" y="416" type="line"/>
       <point x="539" y="436"/>
       <point x="541" y="455"/>
-      <point x="544" y="474" type="curve" smooth="yes"/>
+      <point x="544" y="474" type="curve"/>
       <point x="546" y="493"/>
       <point x="548" y="512"/>
     </contour>
@@ -53,7 +53,7 @@
       <point x="653" y="578" type="curve" smooth="yes"/>
       <point x="630" y="578"/>
       <point x="610" y="586"/>
-      <point x="595" y="601" type="curve" smooth="yes"/>
+      <point x="595" y="601" type="curve"/>
       <point x="579" y="616"/>
       <point x="571" y="635"/>
       <point x="571" y="658" type="curve" smooth="yes"/>
@@ -71,23 +71,23 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>957571c61a2b7f9686d27ff367760e8c35f1d7205396203037e04aa0f23e99f50c8d12d01883bc48051881b41f4d310a6454339ad7d4efdef7de633f0adf37af</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 416 420</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 416 420</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>957571c61a2b7f9686d27ff367760e8c35f1d7205396203037e04aa0f23e99f50c8d12d01883bc48051881b41f4d310a6454339ad7d4efdef7de633f0adf37af</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

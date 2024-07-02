@@ -142,7 +142,7 @@
       <point x="570" y="390" type="curve" smooth="yes"/>
       <point x="562" y="390"/>
       <point x="554" y="391"/>
-      <point x="545" y="392" type="curve" smooth="yes"/>
+      <point x="545" y="392" type="curve"/>
       <point x="452" y="405"/>
       <point x="403" y="481"/>
       <point x="403" y="581" type="curve" smooth="yes"/>
@@ -151,31 +151,31 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>e979f8a956b871a214322dcf4c5e3e77fb7252369ccac5b58178c9931c7e107f45e39e75e78de2aa6c437fbd8efb723e3ea8860ef8694b685ca94b176e801315</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 10 106</string>
-          <string>hstem 289 101</string>
-          <string>hstem 755 102</string>
-          <string>hstem 1108 102</string>
-          <string>hstem 1383 107</string>
-          <string>vstem -3 107</string>
-          <string>vstem 293 110</string>
-          <string>vstem 759 119</string>
-          <string>vstem 1194 109</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 10 106</string>
+              <string>hstem 289 101</string>
+              <string>hstem 755 102</string>
+              <string>hstem 1108 102</string>
+              <string>hstem 1383 107</string>
+              <string>vstem -3 107</string>
+              <string>vstem 293 110</string>
+              <string>vstem 759 119</string>
+              <string>vstem 1194 109</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>e979f8a956b871a214322dcf4c5e3e77fb7252369ccac5b58178c9931c7e107f45e39e75e78de2aa6c437fbd8efb723e3ea8860ef8694b685ca94b176e801315</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

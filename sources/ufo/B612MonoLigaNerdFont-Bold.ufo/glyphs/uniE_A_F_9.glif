@@ -82,7 +82,7 @@
       <point x="600" y="1304" type="curve"/>
       <point x="640" y="1286"/>
       <point x="673" y="1259"/>
-      <point x="700" y="1224" type="curve" smooth="yes"/>
+      <point x="700" y="1224" type="curve"/>
       <point x="718" y="1202"/>
       <point x="729" y="1184"/>
       <point x="733" y="1171" type="curve"/>
@@ -110,7 +110,7 @@
       <point x="1173" y="1304" type="curve" smooth="yes"/>
       <point x="1191" y="1295"/>
       <point x="1211" y="1278"/>
-      <point x="1233" y="1251" type="curve" smooth="yes"/>
+      <point x="1233" y="1251" type="curve"/>
       <point x="1238" y="1246"/>
       <point x="1242" y="1237"/>
       <point x="1246" y="1224" type="curve"/>
@@ -130,26 +130,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>345b52feb86f676dcbf977ea295d885564e76263672d1ba49577440e002b22d993773612b826f0bf8c8a99f56a0c8ded6c64ecbf7ffaff52249cb8cdbfc476b3</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 1317 120</string>
-          <string>vstem 246 127</string>
-          <string>vstem 746 127</string>
-          <string>vstem 1260 113</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 1317 120</string>
+              <string>vstem 246 127</string>
+              <string>vstem 746 127</string>
+              <string>vstem 1260 113</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>345b52feb86f676dcbf977ea295d885564e76263672d1ba49577440e002b22d993773612b826f0bf8c8a99f56a0c8ded6c64ecbf7ffaff52249cb8cdbfc476b3</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

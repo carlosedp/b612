@@ -25,7 +25,7 @@
       <point x="855" y="1088" type="curve" smooth="yes"/>
       <point x="833" y="1127"/>
       <point x="821" y="1149"/>
-      <point x="818" y="1154" type="curve" smooth="yes"/>
+      <point x="818" y="1154" type="curve"/>
       <point x="803" y="1185"/>
       <point x="790" y="1222"/>
       <point x="781" y="1263" type="curve" smooth="yes"/>
@@ -47,7 +47,7 @@
       <point x="537" y="1400" type="line"/>
       <point x="537" y="1309"/>
       <point x="519" y="1227"/>
-      <point x="482" y="1154" type="curve" smooth="yes"/>
+      <point x="482" y="1154" type="curve"/>
       <point x="479" y="1149"/>
       <point x="467" y="1126"/>
       <point x="445" y="1087" type="curve" smooth="yes"/>
@@ -68,7 +68,7 @@
       <point x="377" y="-197" type="curve"/>
       <point x="385" y="-228"/>
       <point x="397" y="-255"/>
-      <point x="414" y="-276" type="curve" smooth="yes"/>
+      <point x="414" y="-276" type="curve"/>
       <point x="430" y="-297"/>
       <point x="446" y="-308"/>
       <point x="462" y="-311" type="curve"/>
@@ -76,23 +76,23 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>4539cba2e9095c11f611665f1d871554dfa3c7ffcd35e19092d33cbd2040c39b24b83f55508d5525ccc3dc6bbac95c99975aa290dcc2e33f6ccf499eeeb0de32</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>vstem 537 230</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>vstem 537 230</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>4539cba2e9095c11f611665f1d871554dfa3c7ffcd35e19092d33cbd2040c39b24b83f55508d5525ccc3dc6bbac95c99975aa290dcc2e33f6ccf499eeeb0de32</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

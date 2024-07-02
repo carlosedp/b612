@@ -64,10 +64,10 @@
       <point x="1155" y="-28" type="curve" smooth="yes"/>
       <point x="1184" y="-42"/>
       <point x="1216" y="-43"/>
-      <point x="1250" y="-32" type="curve" smooth="yes"/>
+      <point x="1250" y="-32" type="curve"/>
       <point x="1284" y="-20"/>
       <point x="1308" y="1"/>
-      <point x="1323" y="31" type="curve" smooth="yes"/>
+      <point x="1323" y="31" type="curve"/>
       <point x="1337" y="61"/>
       <point x="1339" y="93"/>
       <point x="1328" y="127" type="curve"/>
@@ -89,26 +89,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>eed817716e1bcfd714d45600bd5ca8b45cc966de420bb4e197c2e0af8f3401058383c319e4ffa364794de1e6af3d2beab756ab2e6d905a8c0dcc50eebf77695a</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -41 250</string>
-          <string>hstem 377 562</string>
-          <string>hstem 881 414</string>
-          <string>vstem 1086 410</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -41 250</string>
+              <string>hstem 377 562</string>
+              <string>hstem 881 414</string>
+              <string>vstem 1086 410</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>eed817716e1bcfd714d45600bd5ca8b45cc966de420bb4e197c2e0af8f3401058383c319e4ffa364794de1e6af3d2beab756ab2e6d905a8c0dcc50eebf77695a</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

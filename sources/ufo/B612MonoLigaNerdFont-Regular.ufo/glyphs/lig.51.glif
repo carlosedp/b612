@@ -52,55 +52,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>fd5a0f8990311ef83b48c931eac10d18c02f64ca05fd3e208d1c57629c1cfb9b29a72c05988ced7c1339cf77fa9262c961be37130ff7d6ce10b1b82047fa7356</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 21 -21</string>
-          <string>hstem 348 133</string>
-          <string>hstem 935 135</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 214 329</string>
+              <string>hstem 348 133</string>
+              <string>hstem 797 328</string>
+              <string>hstem 935 135</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>fd5a0f8990311ef83b48c931eac10d18c02f64ca05fd3e208d1c57629c1cfb9b29a72c05988ced7c1339cf77fa9262c961be37130ff7d6ce10b1b82047fa7356</string>
       </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 21 -21</string>
-          <string>hstem 348 133</string>
-          <string>hstem 797 328</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 21 -21</string>
-          <string>hstem 348 133</string>
-          <string>hstem 935 135</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 21 -21</string>
-          <string>hstem 214 329</string>
-          <string>hstem 935 135</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
-      </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

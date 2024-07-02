@@ -21,24 +21,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w1300m384,377l267,260l650,-123l1033,260l916,377l650,111m916,877l1033,994l650,1377l267,994l384,877l650,1143</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -123 1500</string>
-          <string>vstem 267 766</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -123 1500</string>
+              <string>vstem 267 766</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>w1300m384,377l267,260l650,-123l1033,260l916,377l650,111m916,877l1033,994l650,1377l267,994l384,877l650,1143</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

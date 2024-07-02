@@ -67,7 +67,7 @@
       <point x="1398" y="439" type="line" smooth="yes"/>
       <point x="1435" y="439"/>
       <point x="1471" y="431"/>
-      <point x="1507" y="416" type="curve" smooth="yes"/>
+      <point x="1507" y="416" type="curve"/>
       <point x="1528" y="408"/>
       <point x="1544" y="391"/>
       <point x="1556" y="365" type="curve" smooth="yes"/>
@@ -81,14 +81,14 @@
       <point x="1066" y="947" type="line" smooth="yes"/>
       <point x="1081" y="947"/>
       <point x="1095" y="953"/>
-      <point x="1107" y="965" type="curve" smooth="yes"/>
+      <point x="1107" y="965" type="curve"/>
       <point x="1119" y="976"/>
       <point x="1125" y="991"/>
       <point x="1125" y="1010" type="curve" smooth="yes"/>
       <point x="1125" y="1416" type="line" smooth="yes"/>
       <point x="1125" y="1431"/>
       <point x="1119" y="1445"/>
-      <point x="1108" y="1457" type="curve" smooth="yes"/>
+      <point x="1108" y="1457" type="curve"/>
       <point x="1096" y="1469"/>
       <point x="1082" y="1475"/>
       <point x="1066" y="1475" type="curve" smooth="yes"/>
@@ -113,25 +113,25 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>a7b3b584d62732272abc8996056cc5e5070be2bb9f7ae8b11cd22267deb2401a9e03c250cdc5859c26f976b6e98a847071886883982f7af5d6d6ed177752c384</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -326 1906</string>
-          <string>hstem 439 305</string>
-          <string>vstem 0 254</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -326 1906</string>
+              <string>hstem 439 305</string>
+              <string>vstem 0 254</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>a7b3b584d62732272abc8996056cc5e5070be2bb9f7ae8b11cd22267deb2401a9e03c250cdc5859c26f976b6e98a847071886883982f7af5d6d6ed177752c384</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

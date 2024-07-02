@@ -135,7 +135,7 @@
       <point x="1250" y="-35" type="curve" smooth="yes"/>
       <point x="1227" y="-35"/>
       <point x="1207" y="-27"/>
-      <point x="1190" y="-12" type="curve" smooth="yes"/>
+      <point x="1190" y="-12" type="curve"/>
       <point x="1173" y="4"/>
       <point x="1153" y="12"/>
       <point x="1131" y="12" type="curve" smooth="yes"/>
@@ -179,30 +179,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>b6763693fe53fc06847c3053c581cd4d4bc72447a96c34436fb656960012ef65d4e1619f6513f74198d44ea366bd8783a55f454ccafe04964b56a93fbe2d03f9</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem -203 168</string>
-          <string>hstem 129 168</string>
-          <string>hstem 461 168</string>
-          <string>hstem 797 164</string>
-          <string>hstem 1293 164</string>
-          <string>vstem 914 164</string>
-          <string>vstem 1332 164</string>
-          <string>vstem 1414 168</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -203 168</string>
+              <string>hstem 129 168</string>
+              <string>hstem 461 168</string>
+              <string>hstem 797 164</string>
+              <string>hstem 1293 164</string>
+              <string>vstem 914 164</string>
+              <string>vstem 1332 164</string>
+              <string>vstem 1414 168</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>b6763693fe53fc06847c3053c581cd4d4bc72447a96c34436fb656960012ef65d4e1619f6513f74198d44ea366bd8783a55f454ccafe04964b56a93fbe2d03f9</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

@@ -26,7 +26,7 @@
       <point x="1664" y="422" type="curve" smooth="yes"/>
       <point x="1664" y="478"/>
       <point x="1646" y="524"/>
-      <point x="1610" y="561" type="curve" smooth="yes"/>
+      <point x="1610" y="561" type="curve"/>
       <point x="1573" y="597" name=".hr01"/>
       <point x="1526" y="617"/>
       <point x="1469" y="620" type="curve"/>
@@ -62,55 +62,26 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>ed2bb500fb0746b8edca89e03aa76770b6249b43573c65ef46416b0fb208c549c580a53961cf5acff20a5301b1210d0a76546d31d909240108859be00da1007c</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 225 805</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 225 805</string>
+              <string>hstem 225 395</string>
+              <string>hstem 225 707</string>
+              <string>hstem 225 492</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>ed2bb500fb0746b8edca89e03aa76770b6249b43573c65ef46416b0fb208c549c580a53961cf5acff20a5301b1210d0a76546d31d909240108859be00da1007c</string>
       </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 225 395</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 225 707</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 225 805</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 225 492</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr04</string>
-      </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>
