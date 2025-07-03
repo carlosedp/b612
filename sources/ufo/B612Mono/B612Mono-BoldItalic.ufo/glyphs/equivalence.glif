@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equivalence" format="2">
+  <advance width="1300"/>
+  <unicode hex="2261"/>
+  <outline>
+    <contour>
+      <point x="213" y="300" type="line" name="av03"/>
+      <point x="1013" y="300" type="line" name="sv01"/>
+      <point x="980" y="116" type="line"/>
+      <point x="180" y="116" type="line"/>
+    </contour>
+    <contour>
+      <point x="266" y="600" type="line" name="av02"/>
+      <point x="1066" y="600" type="line" name="sv02"/>
+      <point x="1033" y="416" type="line"/>
+      <point x="233" y="416" type="line"/>
+    </contour>
+    <contour>
+      <point x="319" y="900" type="line" name="av01"/>
+      <point x="1119" y="900" type="line" name="sv03"/>
+      <point x="1086" y="716" type="line"/>
+      <point x="286" y="716" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>av03</string>
+      <key>delta</key>
+      <integer>-6</integer>
+      <key>ppm1</key>
+      <integer>17</integer>
+      <key>ppm2</key>
+      <integer>18</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av03</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>sv01</string>
+      <key>delta</key>
+      <integer>-4</integer>
+      <key>ppm1</key>
+      <integer>17</integer>
+      <key>ppm2</key>
+      <integer>17</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="1300"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="400" y="600" type="line" name="hr00"/>
+      <point x="900" y="600" type="line" name="dv02"/>
+      <point x="900" y="445" type="line" name="dv01"/>
+      <point x="400" y="445" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>doublev</string>
+      <key>point1</key>
+      <string>dv01</string>
+      <key>point2</key>
+      <string>dv02</string>
+      <key>stem</key>
+      <string>Y: 153</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m400,600l900,600l900,445l400,445</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 500 155</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

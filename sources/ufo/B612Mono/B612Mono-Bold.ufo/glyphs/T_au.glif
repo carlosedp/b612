@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tau" format="2">
+  <advance width="1300"/>
+  <unicode hex="03A4"/>
+  <outline>
+    <contour>
+      <point x="469" y="0" type="line" name="dh01"/>
+      <point x="469" y="1272" type="line" name="sv01"/>
+      <point x="66" y="1272" type="line"/>
+      <point x="66" y="1500" type="line" name="at01"/>
+      <point x="1200" y="1500" type="line"/>
+      <point x="1200" y="1272" type="line" name="sv02"/>
+      <point x="802" y="1272" type="line" name="sv03"/>
+      <point x="802" y="0" type="line" name="dh02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>dh01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>eq Y: 162</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv02</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doubleh</string>
+      <key>point1</key>
+      <string>dh01</string>
+      <key>point2</key>
+      <string>dh02</string>
+      <key>stem</key>
+      <string>eq X: 208</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

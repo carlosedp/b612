@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="2">
+  <advance width="1300"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="452" y="683" type="qcurve" name="ah01"/>
+      <point x="452" y="724"/>
+      <point x="483" y="796"/>
+      <point x="537" y="850"/>
+      <point x="608" y="881"/>
+      <point x="649" y="881" type="qcurve" name="av01"/>
+      <point x="690" y="881"/>
+      <point x="762" y="850"/>
+      <point x="816" y="796"/>
+      <point x="847" y="724"/>
+      <point x="847" y="683" type="qcurve" name="ah02"/>
+      <point x="847" y="642"/>
+      <point x="816" y="569"/>
+      <point x="763" y="515"/>
+      <point x="691" y="483"/>
+      <point x="651" y="483" type="qcurve" name="ab01"/>
+      <point x="610" y="483"/>
+      <point x="537" y="515"/>
+      <point x="483" y="569"/>
+      <point x="452" y="642"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

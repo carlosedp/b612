@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash" format="2">
+  <advance width="1300"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="303" y="1600" type="line" name="av01"/>
+      <point x="497" y="1600" type="line" name="sv01"/>
+      <point x="907" y="-100" type="line" name="sv02"/>
+      <point x="703" y="-100" type="line" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

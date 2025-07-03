@@ -1,0 +1,11 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+feature ezer {
+#Empty Zero
+  sub zero by zero.2;
+} ezer;
+feature zero {
+# Slashed Zero
+sub zero by zero.1;
+} zero;

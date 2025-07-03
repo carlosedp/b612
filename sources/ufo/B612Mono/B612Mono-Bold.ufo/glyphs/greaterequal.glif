@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal" format="2">
+  <advance width="1300"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="130" y="200" type="line"/>
+      <point x="1137" y="200" type="line"/>
+      <point x="1112" y="0" type="line"/>
+      <point x="130" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1139" y="888" type="line" name="hr01"/>
+      <point x="1139" y="708" type="line"/>
+      <point x="132" y="299" type="line" name="mv01"/>
+      <point x="132" y="514" type="line"/>
+      <point x="799" y="795" type="line"/>
+      <point x="132" y="1079" type="line"/>
+      <point x="132" y="1294" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>3</integer>
+      <key>ppm1</key>
+      <integer>20</integer>
+      <key>ppm2</key>
+      <integer>20</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>3</integer>
+      <key>ppm1</key>
+      <integer>15</integer>
+      <key>ppm2</key>
+      <integer>15</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mv01</string>
+      <key>delta</key>
+      <integer>2</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>16</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m130,200l1137,200l1112,0l130,0m1139,888l1139,708l132,299l132,514l799,795l132,1079l132,1294</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 299 17</string>
+          <string>hstem 1278 16</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

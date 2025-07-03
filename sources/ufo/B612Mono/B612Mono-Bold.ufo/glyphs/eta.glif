@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eta" format="2">
+  <advance width="1300"/>
+  <unicode hex="03B7"/>
+  <outline>
+    <contour>
+      <point x="478" y="0" type="line" name="sh02"/>
+      <point x="152" y="0" type="line" name="ab01"/>
+      <point x="152" y="1100" type="line" name="ah01"/>
+      <point x="478" y="1120" type="line" name="sh01"/>
+      <point x="478" y="1067" type="line"/>
+      <point x="527" y="1087"/>
+      <point x="645" y="1116"/>
+      <point x="707" y="1116" type="qcurve" name="at01"/>
+      <point x="802" y="1116"/>
+      <point x="932" y="1063"/>
+      <point x="1012" y="964"/>
+      <point x="1047" y="823"/>
+      <point x="1047" y="736" type="qcurve" name="sh03"/>
+      <point x="1047" y="-500" type="line" name="ah02"/>
+      <point x="721" y="-500" type="line" name="sh04"/>
+      <point x="721" y="761" type="line"/>
+      <point x="721" y="843"/>
+      <point x="690" y="917"/>
+      <point x="646" y="917" type="qcurve" name="sv01"/>
+      <point x="629" y="917"/>
+      <point x="588" y="904"/>
+      <point x="544" y="883"/>
+      <point x="499" y="855"/>
+      <point x="478" y="841" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>sh01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>sh04</string>
+      <key>zone</key>
+      <string>b: -500</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sh02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sh04</string>
+      <key>point2</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>eq Y: 171</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignh</string>
+      <key>point</key>
+      <string>ah02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah01</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>stem</key>
+      <string>eq X: 208</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>sh01</string>
+      <key>point2</key>
+      <string>sh02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah02</string>
+      <key>point2</key>
+      <string>sh03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ah02</string>
+      <key>point2</key>
+      <string>sh04</string>
+      <key>stem</key>
+      <string>eq X: 208</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

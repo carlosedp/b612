@@ -10,10 +10,14 @@ FONT_TTFS=()
 FONT_VFBS=()
 FONT_UFO=()
 
-for style in "Regular" "Italic" "Bold" "BoldIta"; do
-  FONT_TTFS+=("../fonts/ttf/B612MonoLigaNerdFont-$style.ttf")
-  FONT_TTFS+=("../fonts/otf/B612MonoLigaNerdFont-$style.otf")
-  FONT_UFO+=("../sources/ufo/B612MonoLigaNerdFont-$style.ufo")
+for style in "Regular" "Italic" "Bold" "BoldItalic"; do
+  FONT_TTFS+=("fonts/ligatures/B612/B612Liga-$style.otf")
+  FONT_TTFS+=("fonts/ligatures/B612Mono/B612MonoLiga-$style.otf")
+  FONT_TTFS+=("fonts/ligatures_nerd/B612/B612LigaNerdFont-$style.otf")
+  FONT_TTFS+=("fonts/ligatures_nerd/B612Mono/B612MonoLigaNerdFont-$style.otf")
+  FONT_TTFS+=("fonts/plain/B612/B612-$style.otf")
+  FONT_TTFS+=("fonts/plain/B612Mono/B612Mono-$style.otf")
+  # FONT_UFO+=("../sources/ufo/B612MonoLigaNerdFont-$style.ufo")
 done
 
 # Check pre-reqs (gftools and silfont)
@@ -59,25 +63,24 @@ warn() {
 main() {
   info "Fix font digital signature (DSIG) / Fix font GASP and PREP table"
 
-  for ttf in ${FONT_TTFS[*]}; do
-    echo $ttf
-    # gftools fix-dsig --autofix $ttf
-    mv $ttf $ttf-orig
-    gftools fix-nonhinting $ttf-orig $ttf
-  done
+  # for ttf in ${FONT_TTFS[*]}; do
+  #   echo $ttf
+  #   # gftools fix-dsig --autofix $ttf
+  #   mv $ttf $ttf-orig
+  #   gftools fix-nonhinting $ttf-orig $ttf
+  # done
 
-  info "Export vfb as UFO and normalize UFO"
+  # info "Export vfb as UFO and normalize UFO"
 
-  for ufo in ${FONT_UFO[*]}; do
-    echo $ufo
-    psfnormalize $ufo
-  done
+  # for ufo in ${FONT_UFO[*]}; do
+  #   echo $ufo
+  #   psfnormalize $ufo
+  # done
 
   # Remove temp files
   for ttf in ${FONT_TTFS[*]}; do
-    rm $ttf-orig
-    rm $ttf--backup-fonttools-prep-gasporig
-    rm
+    rm -f $ttf-orig
+    rm -f $ttf--backup-fonttools-prep-gasporig
   done
 
   # for vfb in ${FONT_VFBS[*]}; do

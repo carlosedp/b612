@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="2">
+  <advance width="1300"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="361" y="82" type="line" name="hr00"/>
+      <point x="105" y="82" type="line"/>
+      <point x="144" y="300" type="line" name="av01"/>
+      <point x="400" y="300" type="line"/>
+      <point x="505" y="900" type="line"/>
+      <point x="249" y="900" type="line"/>
+      <point x="288" y="1118" type="line" name="at01"/>
+      <point x="544" y="1118" type="line"/>
+      <point x="611" y="1500" type="line"/>
+      <point x="897" y="1520" type="line" name="at02"/>
+      <point x="826" y="1118" type="line"/>
+      <point x="1115" y="1118" type="line" name="sv01"/>
+      <point x="1048" y="900" type="line"/>
+      <point x="787" y="900" type="line"/>
+      <point x="682" y="300" type="line"/>
+      <point x="971" y="300" type="line" name="sv02"/>
+      <point x="904" y="82" type="line"/>
+      <point x="643" y="82" type="line"/>
+      <point x="558" y="-400" type="line" name="sv03"/>
+      <point x="276" y="-400" type="line" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at02</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>av02</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

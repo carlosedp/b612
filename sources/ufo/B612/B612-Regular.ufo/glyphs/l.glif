@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l" format="2">
+  <advance width="700"/>
+  <unicode hex="006C"/>
+  <outline>
+    <contour>
+      <point x="390" y="376" type="line" name="dh02"/>
+      <point x="390" y="310"/>
+      <point x="405" y="221"/>
+      <point x="434" y="166"/>
+      <point x="477" y="143"/>
+      <point x="505" y="143" type="qcurve" name="sv01"/>
+      <point x="527" y="143"/>
+      <point x="563" y="148"/>
+      <point x="576" y="152" type="qcurve"/>
+      <point x="591" y="156"/>
+      <point x="603" y="161" type="qcurve"/>
+      <point x="672" y="40" type="line" name="fh01"/>
+      <point x="664" y="32"/>
+      <point x="629" y="13"/>
+      <point x="581" y="-5"/>
+      <point x="520" y="-17"/>
+      <point x="485" y="-17" type="qcurve" name="ab01"/>
+      <point x="395" y="-17"/>
+      <point x="283" y="49"/>
+      <point x="221" y="163"/>
+      <point x="200" y="314"/>
+      <point x="200" y="400" type="qcurve" name="dh01"/>
+      <point x="200" y="1400" type="line"/>
+      <point x="180" y="1600" type="line"/>
+      <point x="390" y="1620" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>Y: 162</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doubleh</string>
+      <key>point1</key>
+      <string>dh01</string>
+      <key>point2</key>
+      <string>dh02</string>
+      <key>stem</key>
+      <string>X: 190</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>fdeltah</string>
+      <key>point</key>
+      <string>fh01</string>
+      <key>delta</key>
+      <integer>-3</integer>
+      <key>ppm1</key>
+      <integer>39</integer>
+      <key>ppm2</key>
+      <integer>39</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b04108c0928205fa912b663e42cbb4eee28df14817d518955037efb1807361d0a529a182b310b2de190090f4be12f1c71950c5205c1be59b44ffbe682528ef3e</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -17 160</string>
+          <string>hstem 1620 -20</string>
+          <string>vstem 200 190</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

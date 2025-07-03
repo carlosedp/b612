@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="2">
+  <advance width="1300"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="977" y="619" type="line" name="dv01"/>
+      <point x="977" y="476" type="line" name="dv02"/>
+      <point x="421" y="-13" type="line" name="ab01"/>
+      <point x="327" y="224" type="line" name="sv01"/>
+      <point x="661" y="517" type="line"/>
+      <point x="735" y="550" type="line" name="iv01"/>
+      <point x="660" y="582" type="line"/>
+      <point x="329" y="880" type="line" name="sv02"/>
+      <point x="418" y="1106" type="line" name="at01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>t: x</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doublev</string>
+      <key>point1</key>
+      <string>dv01</string>
+      <key>point2</key>
+      <string>dv02</string>
+      <key>stem</key>
+      <string>eq Y: 135</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>eq Y: 135</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>stem</key>
+      <string>eq Y: 135</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1300m977,619l977,476l421,-13l327,224l661,517l735,550l660,582l329,880l418,1106</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 8 -21</string>
+          <string>hstem 1106 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

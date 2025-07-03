@@ -27,15 +27,22 @@ For example on VSCode, to have ligatures and contextual alternates enabled and k
 "editor.fontLigatures": true
 // or
 "editor.fontLigatures": "'calt' on,'zero' off, 'ezer' off",
-// or to have context alts and slashed zero, set:
+// or to have ligatures and slashed zero, set:
 "editor.fontLigatures": "'calt' on,'zero' on",
+// or to have ligatures and empty zero, set:
+"editor.fontLigatures": "'calt' on,'ezer' on",
 ```
 
 The fonts were Ligaturized using <https://github.com/ToxicFrog/Ligaturizer>. The ligatures come from Fira Code font originally.
 
 Nerd Fonts glyphs were added to the fonts using Docker container from <https://github.com/ryanoasis/nerd-fonts/>.
 
-The modified fonts can be downloaded from [./fonts/otf](./fonts/otf) directory.
+The modified fonts can be downloaded from [./fonts/](./fonts/) directory.
+
+- `fonts/ligatures` - Contains both the B612 and B612 Mono fonts with ligatures.
+- `fonts/ligature-nerd` - Contains the B612 and B612 Mono fonts with NerdFonts glyphs and ligatures.
+- `fonts/original` - Contains the original B612 and B612 Mono fonts without any modifications (no ligatures or NerdFonts glyphs) and no dotted/slashed zero sources (original empty zero).
+- `fonts/plain` - Contains the original B612 and B612 Mono fonts with dotted and slashed zero sources.
 
 ## Font Specimen
 
@@ -49,7 +56,7 @@ Below additional scripts, blocks and drawing elements:
 
 ## Building or Updating the fonts
 
-To build a new version of the font, edit it with FontLab, then run the "Export Font As" option, selecting "UFO Package" format and below the format, select all fonts to be exported. Than export again in the same menu but selecting "OpenType PS (.otf)" format to generate the output fonts in the `fonts` directory.
+To build a new version of the font, edit it with FontLab if required, then run the "Export Font As" option, selecting "UFO Package" format and below the format, select all fonts to be exported. Than export again in the same menu but selecting "OpenType PS (.otf)" format to generate the output fonts in the `fonts` directory.
 
 To add ligatures to the fonts, use Ligaturizer tool. First clone the repository and install the dependencies:
 
@@ -59,10 +66,11 @@ cd Ligaturizer
 git submodule update --init --recursive
 # copy the fonts to be processed to the fonts directory
 mkdir fonts/B612
+mkdir fonts/B612Mono
 cp /path/to/B612/fonts/otf/*.otf fonts/B612
 ```
 
-Edit the `Ligaturizer.py` file to disable some ligatures if needed (like the `<=` and `>=` which looks wrong on some code). Then edit `build.py` to comment fonts which do not need edit and  Also ligaturizer requires `fontforge` which can be installed with `brew install fontforge`.
+Edit the `Ligaturizer.py` file to disable some ligatures if needed (like the `/*` and `*/` which looks wrong on some code). Then edit `build.py` to comment fonts which do not need edit and  Also ligaturizer requires `fontforge` which can be installed with `brew install fontforge`.
 
 Then run the following command:
 
@@ -70,14 +78,19 @@ Then run the following command:
 make
 ```
 
-To add the Nerd Fonts glyphs, go to the `fonts` directory, create an `in` directory and copy the fonts to be processed there. Then run the following command (requires Docker or Podman):
+To add the Nerd Fonts glyphs, go to the `fonts` directory which contains the otf files, create an `output` then run the following command (requires Docker or Podman):
 
 ```bash
-docker run -v $(pwd):/in -v $(pwd)/out:/out nerdfonts/patcher -c
+docker run -v $(pwd):/in -v $(pwd)/output:/out nerdfonts/patcher -c
 ```
 
-The patched fonts will be available in the `out` directory. Move them to the `fonts` directory and delete the `in` and `out` directories.
+The patched fonts will be available in the `output` directory. Move them to the `fonts` directory and delete the `output` directories.
 
+Finally to fix the digital signature of the fonts, run the `build.sh` script from the `scripts` directory:
+
+```bash
+./scripts/build.sh
+```
 
 ## The genesis of PolarSys B612
 

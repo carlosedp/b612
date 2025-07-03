@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <advance width="700"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="405" y="1500" type="line" name="sh01"/>
+      <point x="405" y="450" type="line"/>
+      <point x="195" y="429" type="line" name="fh01"/>
+      <point x="195" y="1500" type="line" name="sh02"/>
+    </contour>
+    <contour>
+      <point x="169" y="120" type="qcurve" name="dh01"/>
+      <point x="169" y="147"/>
+      <point x="190" y="195"/>
+      <point x="226" y="231"/>
+      <point x="273" y="252"/>
+      <point x="300" y="252" type="qcurve" name="mh01"/>
+      <point x="327" y="252"/>
+      <point x="375" y="231"/>
+      <point x="411" y="195"/>
+      <point x="432" y="147"/>
+      <point x="432" y="120" type="qcurve" name="dh02"/>
+      <point x="432" y="93"/>
+      <point x="411" y="44"/>
+      <point x="376" y="8"/>
+      <point x="329" y="-14"/>
+      <point x="302" y="-14" type="qcurve" name="ab01"/>
+      <point x="274" y="-14"/>
+      <point x="226" y="8"/>
+      <point x="190" y="44"/>
+      <point x="169" y="93"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>sh01</string>
+      <key>zone</key>
+      <string>t: 1</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>mh01</string>
+      <key>stem</key>
+      <string>Y: 162</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>mh01</string>
+      <key>delta</key>
+      <integer>-5</integer>
+      <key>ppm1</key>
+      <integer>19</integer>
+      <key>ppm2</key>
+      <integer>19</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>doubleh</string>
+      <key>point1</key>
+      <string>dh01</string>
+      <key>point2</key>
+      <string>dh02</string>
+      <key>stem</key>
+      <string>X: 208</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>dh02</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>sh01</string>
+      <key>point2</key>
+      <string>sh02</string>
+      <key>stem</key>
+      <string>X: 199</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>dh01</string>
+      <key>delta</key>
+      <integer>8</integer>
+      <key>ppm1</key>
+      <integer>24</integer>
+      <key>ppm2</key>
+      <integer>25</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>dh01</string>
+      <key>delta</key>
+      <integer>8</integer>
+      <key>ppm1</key>
+      <integer>17</integer>
+      <key>ppm2</key>
+      <integer>17</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>dh01</string>
+      <key>delta</key>
+      <integer>5</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>16</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltah</string>
+      <key>point</key>
+      <string>mh01</string>
+      <key>delta</key>
+      <integer>-2</integer>
+      <key>ppm1</key>
+      <integer>19</integer>
+      <key>ppm2</key>
+      <integer>19</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>fdeltav</string>
+      <key>point</key>
+      <string>fh01</string>
+      <key>delta</key>
+      <integer>2</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>16</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>fdeltav</string>
+      <key>point</key>
+      <string>fh01</string>
+      <key>delta</key>
+      <integer>2</integer>
+      <key>ppm1</key>
+      <integer>31</integer>
+      <key>ppm2</key>
+      <integer>31</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>fdeltah</string>
+      <key>point</key>
+      <string>fh01</string>
+      <key>delta</key>
+      <integer>1</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>16</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>fdeltah</string>
+      <key>point</key>
+      <string>fh01</string>
+      <key>delta</key>
+      <integer>5</integer>
+      <key>ppm1</key>
+      <integer>31</integer>
+      <key>ppm2</key>
+      <integer>31</integer>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b542bdaee9dcf6d8a67de84e8d46742b5f448e1990fe366f0087b72c9b9af6d3be0bb783bce17278849df70249a748e1a9b38307b2858e1ce3f50caeac9ec952</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -14 266</string>
+          <string>vstem 169 263</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
